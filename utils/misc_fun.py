@@ -64,11 +64,17 @@ def get_username(update, context):
         if user.username == None:
             return user.first_name
         else:
-            return user.username
+            return f"@{user.username}"
     except AttributeError:
         query = update.callback_query
         usern = query.from_user
         if usern.username == None:
             return usern.first_name
         else:
-            return usern.username
+            return f"@{usern.username}"
+
+def remove_html_tags(text):
+    """Remove html tags from a string"""
+    import re
+    clean = re.compile('<.*?>')
+    return re.sub(clean, '', text)

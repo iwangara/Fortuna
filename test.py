@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from telegram import MessageEntity, ChatAction, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Bot
-from telegram.ext import Updater, MessageHandler, Filters,CommandHandler,CallbackQueryHandler
+from telegram.ext import Updater, MessageHandler, Filters,CommandHandler,CallbackQueryHandler,Defaults
 from telegram.ext.dispatcher import run_async
 from telegram.utils.request import Request
 from telegram.error import  BadRequest
@@ -31,7 +31,7 @@ sched = utils.SCHED
 
 """fetch new questions every 10 mins"""
 utils.fetchSessions()
-sched.add_job(utils.fetchSessions,'interval',minutes=10)
+# sched.add_job(utils.fetchSessions,'interval',minutes=10)
 
 sched.print_jobs()
 sched.start()
@@ -69,8 +69,12 @@ class MQBot(telegram.bot.Bot):
         ))
         try:
             return super(MQBot, self).send_message(*args, **kwargs)
-        except:
-            pass
+        except Exception as e:
+            print(e)
+            logger.warning(e)
+            return e
+
+
 
     @mq.queuedmessage
     def edit_message_text(self, *args, **kwargs):
@@ -171,8 +175,9 @@ class MQBot(telegram.bot.Bot):
 
 
 def main():
-    # Create the EventHandler and pass it your bot's token.
+    """Instanciate a Defaults object"""
 
+    # Create the EventHandler and pass it your bot's token.
     q = mq.MessageQueue(all_burst_limit=29, all_time_limit_ms=1017, group_burst_limit=15, group_time_limit_ms=55000,
                         autostart=True)
     # set connection pool size for bot
@@ -183,10 +188,14 @@ def main():
     # Get the dispatcher to register handlers CallbackQueryHandler(language)
     dp = updater.dispatcher
     dp.add_handler(MessageHandler(Filters.reply & (Filters.text | Filters.voice), botify.reply_check))
+    dp.add_handler(CommandHandler(command='start', callback=botify.start))
     dp.add_handler(CommandHandler(command='gid',callback=botify.gid))
-    dp.add_handler(MessageHandler(Filters.text,botify.save_messages))
+    dp.add_handler(CommandHandler(command='progress', callback=botify.check_progress))
+    dp.add_handler(MessageHandler(Filters.status_update.new_chat_members,botify.unauth_group))
+    dp.add_handler(MessageHandler(Filters.text,botify.message_counter))
+    dp.add_handler(CallbackQueryHandler(botify.javis))
 # log all errors
-#     dp.add_error_handler(botify.error)
+    dp.add_error_handler(botify.error)
 
     # Start the Bot
     updater.start_polling()

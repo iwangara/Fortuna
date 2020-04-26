@@ -18,6 +18,10 @@ class DBHelper:
         tbl_apollo ="""CREATE TABLE IF NOT EXISTS apollo(id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,question VARCHAR DEFAULT NULL,answer VARCHAR DEFAULT NULL,groupId INTEGER DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0)"""
         tbl_chances ="""CREATE TABLE IF NOT EXISTS chances(id INTEGER PRIMARY KEY,userId INTEGER DEFAULT NULL ,tries INTEGER DEFAULT 0,bot DEFAULT NULL,messageId INTEGER DEFAULT NULL )"""
         tbl_correct ="""CREATE TABLE IF NOT EXISTS correct(id INTEGER PRIMARY KEY,messageId INTEGER DEFAULT NULL,students INTEGER DEFAULT 0)"""
+        tbl_notify ="""CREATE TABLE IF NOT EXISTS notify(id INTEGER PRIMARY KEY,userid INTEGER DEFAULT NULL,rank VARCHAR DEFAULT NULL)"""
+        tbl_likes="""CREATE TABLE IF NOT EXISTS likes(id INTEGER PRIMARY KEY,userid INTEGER DEFAULT NULL,liker INTEGER DEFAULT NULL ,rank VARCHAR DEFAULT NULL )"""
+        self.c.execute(tbl_notify)
+        self.c.execute(tbl_likes)
         self.c.execute(tbl_sessions)
         self.c.execute(tbl_groups)
         self.c.execute(tbl_apollo)
@@ -174,3 +178,36 @@ class DBHelper:
     def delete_correct(self,messageId):
         self.c.execute("DELETE FROM correct WHERE messageId=?", (messageId,))
         self.conn.commit()
+
+    """Mark as already notified"""
+    def check_notice(self,userid,rank):
+        self.c.execute("SELECT rank FROM notify WHERE userid=? and rank=?", (userid,rank))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return True
+        else:
+            return False
+
+    def create_notice(self,userid,rank):
+        if self.check_notice(userid,rank)==False:
+            self.c.execute("INSERT INTO notify(userid,rank) VALUES (?,?)", (userid,rank))
+            self.conn.commit()
+
+    """Notification Likes"""
+    def check_likes(self,userid,liker,rank):
+        self.c.execute("SELECT rank FROM likes WHERE userid=? and liker=? and rank=?", (userid,liker,rank))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return True
+        else:
+            return False
+
+    def create_like(self,userid,liker,rank):
+        if self.check_likes(userid,liker,rank)==False:
+            self.c.execute("INSERT INTO likes(userid,liker,rank) VALUES (?,?,?)", (userid,liker,rank))
+            self.conn.commit()
+
+    def count_likes(self,userid,rank):
+        self.c.execute("SELECT count(*) FROM likes WHERE userid=?  and rank=?", (userid,rank))
+        bot = self.c.fetchone()
+        return bot[0]
