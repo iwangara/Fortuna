@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
-from telegram import MessageEntity, ChatAction, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Bot
-from telegram.ext import Updater, MessageHandler, Filters,CommandHandler,CallbackQueryHandler,Defaults
-from telegram.ext.dispatcher import run_async
+from telegram import Bot
+from telegram.ext import Updater, MessageHandler, Filters,CommandHandler,CallbackQueryHandler, PicklePersistence
 from telegram.utils.request import Request
 from telegram.error import  BadRequest
 from telegram.ext import messagequeue as mq
 import telegram.bot
 import logging
-import emoji
 import utils
 import configs
 import botify
@@ -31,7 +29,13 @@ sched = utils.SCHED
 
 """fetch new questions every 10 mins"""
 utils.fetchSessions()
-# sched.add_job(utils.fetchSessions,'interval',minutes=10)
+try:
+    sched.remove_job(job_id='fetcher')
+    sched.add_job(utils.fetchSessions, 'interval', minutes=5, id='fetcher')
+except Exception as e:
+    print(e)
+    pass
+
 
 sched.print_jobs()
 sched.start()
@@ -174,6 +178,8 @@ class MQBot(telegram.bot.Bot):
 
 
 
+
+
 def main():
     """Instanciate a Defaults object"""
 
@@ -183,16 +189,33 @@ def main():
     # set connection pool size for bot
     request = Request(con_pool_size=12)
     testbot = MQBot(configs.TOKEN, request=request, mqueue=q)
-    updater = telegram.ext.updater.Updater(bot=testbot, use_context=True)
+    pp = PicklePersistence(filename='rabot',store_bot_data=True)
+    updater = telegram.ext.updater.Updater(bot=testbot,persistence=pp, use_context=True)
 
     # Get the dispatcher to register handlers CallbackQueryHandler(language)
     dp = updater.dispatcher
-    dp.add_handler(MessageHandler(Filters.reply & (Filters.text | Filters.voice), botify.reply_check))
+    dp.add_handler(MessageHandler(Filters.regex('^TOP$'), botify.top))
+    dp.add_handler(MessageHandler(Filters.regex('^PROGRESS$'), botify.check_progress))
+    dp.add_handler(MessageHandler(Filters.regex('^HELP$'), botify.help))
+    dp.add_handler(MessageHandler(Filters.regex('^MY RA$'), botify.myra))
+    dp.add_handler(MessageHandler(Filters.regex('^PROFILE$'), botify.profile))
     dp.add_handler(CommandHandler(command='start', callback=botify.start))
+    dp.add_handler(CommandHandler(command='help', callback=botify.help))
+    dp.add_handler(CommandHandler(command='top', callback=botify.top))
     dp.add_handler(CommandHandler(command='gid',callback=botify.gid))
     dp.add_handler(CommandHandler(command='progress', callback=botify.check_progress))
+    dp.add_handler(CommandHandler(command='studyrooms', callback=botify.studyrooms))
+    dp.add_handler(CommandHandler(command='teachers', callback=botify.teachers))
+    dp.add_handler(CommandHandler(command='classrooms', callback=botify.classrooms))
+    dp.add_handler(CommandHandler(command='rector', callback=botify.rector))
+    dp.add_handler(CommandHandler(command='settopic', callback=botify.settopic))
+    dp.add_handler(CommandHandler(command='topic', callback=botify.topic))
+    dp.add_handler(CommandHandler(command='stop', callback=botify.session_manager))
+    dp.add_handler(MessageHandler(Filters.command & Filters.reply & Filters.group,botify.bonus))
+    dp.add_handler(MessageHandler(Filters.reply & (Filters.text | Filters.voice), botify.reply_check))
     dp.add_handler(MessageHandler(Filters.status_update.new_chat_members,botify.unauth_group))
     dp.add_handler(MessageHandler(Filters.text,botify.message_counter))
+    dp.add_handler(MessageHandler(Filters.dice, botify.dice))
     dp.add_handler(CallbackQueryHandler(botify.javis))
 # log all errors
     dp.add_error_handler(botify.error)
@@ -207,8 +230,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-# while True:
-#     sleep(100)
-#     print("ok")

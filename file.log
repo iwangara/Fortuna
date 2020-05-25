@@ -1,29 +1,1586 @@
-pass
+2020-05-03 14:46:14,938 - utils.misc_fun - WARNING - sawa
+2020-05-03 14:54:09,680 - utils.misc_fun - WARNING - Notify users at: 2020-05-03 11:55:00
+2020-05-03 15:08:42,691 - utils.misc_fun - WARNING - Notify users at: 2020-05-03 12:39:00
+2020-05-03 15:20:42,732 - utils.misc_fun - WARNING - Notify users at: 2020-05-03 12:22:00
+2020-05-03 15:24:22,862 - utils.misc_fun - WARNING - sawa
+2020-05-03 15:24:32,177 - utils.misc_fun - WARNING - sawa
+2020-05-03 15:27:45,576 - utils.misc_fun - WARNING - sawa
+2020-05-03 15:29:38,965 - utils.misc_fun - WARNING - sawa
+2020-05-03 15:29:53,570 - utils.misc_fun - WARNING - sawa
+2020-05-03 15:32:31,586 - utils.misc_fun - WARNING - Notify users at: 2020-05-03 12:32:00
+2020-05-03 15:36:02,558 - utils.misc_fun - WARNING - Notify users at: 2020-05-03 12:37:00
+2020-05-03 16:01:18,799 - utils.misc_fun - WARNING - Notify users at: 2020-05-03 13:03:00
+Update "{'update_id': 800564743, 'message': {'message_id': 949, 'date': 1588511023, 'chat': {'id': 214196949, 'type': 'private', 'username': 'Iameasyguy', 'first_name': 'Thebotsguy'}, 'text': '/progress', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 9}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 214196949, 'first_name': 'Thebotsguy', 'is_bot': False, 'username': 'Iameasyguy', 'language_code': 'en'}}, '_effective_user': {'id': 214196949, 'first_name': 'Thebotsguy', 'is_bot': False, 'username': 'Iameasyguy', 'language_code': 'en'}, '_effective_chat': {'id': 214196949, 'type': 'private', 'username': 'Iameasyguy', 'first_name': 'Thebotsguy'}, '_effective_message': {'message_id': 949, 'date': 1588511023, 'chat': {'id': 214196949, 'type': 'private', 'username': 'Iameasyguy', 'first_name': 'Thebotsguy'}, 'text': '/progress', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 9}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 214196949, 'first_name': 'Thebotsguy', 'is_bot': False, 'username': 'Iameasyguy', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+2020-05-03 16:10:24,046 - utils.misc_fun - WARNING - starting session2020-05-03 13:12:00
+2020-05-03 16:22:52,113 - utils.misc_fun - WARNING - starting session2020-05-13 13:24:00
+2020-05-03 16:23:44,417 - utils.misc_fun - WARNING - starting session2020-05-13 13:24:00
+2020-05-03 16:27:45,978 - utils.misc_fun - WARNING - starting session2020-05-03 13:30:00
+2020-05-03 17:14:45,935 - utils.misc_fun - WARNING - starting session2020-05-03 14:16:00
+2020-05-03 17:15:25,065 - utils.misc_fun - WARNING - starting session2020-05-03 14:16:00
+2020-05-03 17:31:01,289 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 17:31:50
+2020-05-03 17:32:01,129 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 17:32:50
+2020-05-03 17:33:01,955 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 17:33:50
+2020-05-03 17:40:11,377 - utils.misc_fun - WARNING - starting session2020-05-03 14:16:00
+2020-05-03 17:42:12,780 - utils.misc_fun - WARNING - starting session2020-05-03 14:16:00
+2020-05-03 17:44:06,050 - utils.misc_fun - WARNING - starting session2020-05-03 14:45:00
+2020-05-03 17:47:01,359 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 17:47:50
+2020-05-03 17:48:01,180 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 17:48:50
+bot type: Apollo
+creating student api called : False
+question level : 1
+2020-05-03 17:49:01,092 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 17:49:50
+2020-05-04 00:31:24,484 - utils.misc_fun - WARNING - starting session2020-05-03 21:32:00
+2020-05-04 00:34:03,338 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:34:52
+2020-05-04 00:34:52,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:35:01,904 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:35:50
+2020-05-04 00:35:04,548 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:35:50,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:36:01,899 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:36:02,233 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:36:51
+2020-05-04 00:36:51,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:37:02,888 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:37:51
+2020-05-04 00:37:04,472 - utils.misc_fun - WARNING - message was deleted
+bot type: Apollo
+creating student api called : False
+question level : 1
+2020-05-04 00:37:51,025 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:38:02,687 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:38:51
+2020-05-04 00:38:04,043 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:38:51,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:39:02,856 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:39:51
+2020-05-04 00:39:04,364 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:39:51,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:40:03,465 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:40:52
+2020-05-04 00:40:04,425 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:40:52,006 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:41:03,033 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:41:52
+2020-05-04 00:41:05,299 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:41:52,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:42:01,343 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:42:50
+2020-05-04 00:42:03,320 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:42:50,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:43:01,295 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:43:50
+2020-05-04 00:43:01,458 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:43:50,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:44:01,128 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:44:50
+2020-05-04 00:44:01,245 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:44:50,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:47:01,146 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:47:50
+2020-05-04 00:47:50,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:48:01,352 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:48:50
+2020-05-04 00:48:01,371 - utils.misc_fun - WARNING - message was deleted
+bot type: Apollo
+creating student api called : False
+question level : 1
+2020-05-04 00:48:50,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:49:01,180 - utils.misc_fun - WARNING - Posting the answer at :2020-05-03 21:49:50
+2020-05-04 00:49:01,346 - utils.misc_fun - WARNING - message was deleted
+2020-05-04 00:49:50,033 - utils.misc_fun - WARNING - answer was posted
+2020-05-04 00:50:01,329 - utils.misc_fun - WARNING - message was deleted
+2020-05-07 18:49:00,208 - utils.misc_fun - WARNING - starting session2020-05-07 14:39:00
 bot type: None
-Update "{'update_id': 800564278, 'message': {'message_id': 694, 'date': 1587721020, 'chat': {'id': -469701567, 'type': 'group', 'title': 'German Test Group', 'all_members_are_administrators': True}, 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [{'id': 1034951294, 'first_name': 'Ra English bot', 'is_bot': True, 'username': 'raenglishbot'}], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 538713359, 'first_name': 'Thebots', 'is_bot': False, 'last_name': 'guy', 'username': 'thebots_guy', 'language_code': 'en'}}, '_effective_user': {'id': 538713359, 'first_name': 'Thebots', 'is_bot': False, 'last_name': 'guy', 'username': 'thebots_guy', 'language_code': 'en'}, '_effective_chat': {'id': -469701567, 'type': 'group', 'title': 'German Test Group', 'all_members_are_administrators': True}, '_effective_message': {'message_id': 694, 'date': 1587721020, 'chat': {'id': -469701567, 'type': 'group', 'title': 'German Test Group', 'all_members_are_administrators': True}, 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [{'id': 1034951294, 'first_name': 'Ra English bot', 'is_bot': True, 'username': 'raenglishbot'}], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 538713359, 'first_name': 'Thebots', 'is_bot': False, 'last_name': 'guy', 'username': 'thebots_guy', 'language_code': 'en'}}}" caused error "'CallbackContext' object has no attribute 'message'"
-Update "{'update_id': 800564391, 'message': {'message_id': 51107, 'date': 1587766124, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "that's what appears to members In Arabic Classroom when they click practice letters..", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51107, 'date': 1587766124, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "that's what appears to members In Arabic Classroom when they click practice letters..", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564392, 'message': {'message_id': 51108, 'date': 1587766132, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'From the welcome msg', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51108, 'date': 1587766132, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'From the welcome msg', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564394, 'message': {'message_id': 51110, 'date': 1587766184, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "What's diagraph and trigraph?", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51110, 'date': 1587766184, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "What's diagraph and trigraph?", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564400, 'message': {'message_id': 51116, 'date': 1587766343, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "They don't appear for members as I understand from the first Sc..shot", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51116, 'date': 1587766343, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "They don't appear for members as I understand from the first Sc..shot", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564407, 'message': {'message_id': 51123, 'date': 1587766604, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'When they send /language \n\nIt should send a list of our languages, right? \n\nBut this is not the case here!', 'entities': [{'type': 'bot_command', 'offset': 15, 'length': 9}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51123, 'date': 1587766604, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'When they send /language \n\nIt should send a list of our languages, right? \n\nBut this is not the case here!', 'entities': [{'type': 'bot_command', 'offset': 15, 'length': 9}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564461, 'message': {'message_id': 51174, 'date': 1587809401, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'I was just asking about two things\n\n1- the lady that sent a screen shot in Arabic Classroom showing that she faces some issues with Haawa bot .. where the bot shows everything is empty there when she clicks the "Arabic letter and sounds" button in the welcome message.  I could not recognize why was that.\n\nBut Micha told me it\'s maybe because the lady chose the English sounds instead of The Arabic one. So I told the girl to make sure if she did it in right way.\n\n\n2- I wasn\'t know what "trigraph and bigraph" means and why it says that there are empty\n\nBut Happiness said that they are the sounds composed of two or three letters\n\nand since we don\'t have such things in Arabic they are empty.\n\n\nSo Everything is perfect for me now. Thank you @UnuaLibro', 'entities': [{'type': 'mention', 'offset': 745, 'length': 10}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51174, 'date': 1587809401, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'I was just asking about two things\n\n1- the lady that sent a screen shot in Arabic Classroom showing that she faces some issues with Haawa bot .. where the bot shows everything is empty there when she clicks the "Arabic letter and sounds" button in the welcome message.  I could not recognize why was that.\n\nBut Micha told me it\'s maybe because the lady chose the English sounds instead of The Arabic one. So I told the girl to make sure if she did it in right way.\n\n\n2- I wasn\'t know what "trigraph and bigraph" means and why it says that there are empty\n\nBut Happiness said that they are the sounds composed of two or three letters\n\nand since we don\'t have such things in Arabic they are empty.\n\n\nSo Everything is perfect for me now. Thank you @UnuaLibro', 'entities': [{'type': 'mention', 'offset': 745, 'length': 10}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564471, 'message': {'message_id': 51184, 'date': 1587828633, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "@UnuaLibro \nWhy I've been restricted in Hindi Classroom?", 'entities': [{'type': 'mention', 'offset': 0, 'length': 10}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51184, 'date': 1587828633, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "@UnuaLibro \nWhy I've been restricted in Hindi Classroom?", 'entities': [{'type': 'mention', 'offset': 0, 'length': 10}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564474, 'message': {'message_id': 51187, 'date': 1587828812, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "I've just joined it!", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51187, 'date': 1587828812, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': "I've just joined it!", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564492, 'message': {'message_id': 51204, 'date': 1587829150, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'It works now. Thank you!', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}, '_effective_user': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51204, 'date': 1587829150, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'It works now. Thank you!', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 983987372, 'first_name': 'Muhammad', 'is_bot': False, 'username': 'MuhammadOo'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564495, 'message': {'message_id': 51206, 'date': 1587829747, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Help', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}, '_effective_user': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51206, 'date': 1587829747, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Help', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564496, 'message': {'message_id': 51207, 'date': 1587829768, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Akan Classroom', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}, '_effective_user': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51207, 'date': 1587829768, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Akan Classroom', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564497, 'message': {'message_id': 51208, 'date': 1587829774, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'A porn bot', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}, '_effective_user': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51208, 'date': 1587829774, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'A porn bot', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564499, 'message': {'message_id': 51210, 'date': 1587829930, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'There is another one @farahAPHHbot', 'entities': [{'type': 'mention', 'offset': 21, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}, '_effective_user': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51210, 'date': 1587829930, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'There is another one @farahAPHHbot', 'entities': [{'type': 'mention', 'offset': 21, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564500, 'message': {'message_id': 51211, 'date': 1587829953, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': '@nasimQGW5bot', 'entities': [{'type': 'mention', 'offset': 0, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}, '_effective_user': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51211, 'date': 1587829953, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': '@nasimQGW5bot', 'entities': [{'type': 'mention', 'offset': 0, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564501, 'message': {'message_id': 51212, 'date': 1587829978, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Count at least 5 of them', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}, '_effective_user': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51212, 'date': 1587829978, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Count at least 5 of them', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564512, 'message': {'message_id': 51221, 'date': 1587832441, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Is other Muslim?', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}}, '_effective_user': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51221, 'date': 1587832441, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Is other Muslim?', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}}}" caused error "'NoneType' object is not subscriptable"
-Update "{'update_id': 800564513, 'edited_message': {'message_id': 51221, 'date': 1587832441, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'edit_date': 1587832474, 'text': 'Is there other Muslim?', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}}, '_effective_user': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51221, 'date': 1587832441, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'edit_date': 1587832474, 'text': 'Is there other Muslim?', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}}}" caused error "'NoneType' object has no attribute 'from_user'"
-Update "{'update_id': 800564515, 'message': {'message_id': 51223, 'date': 1587833408, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Why people use the classrooms to talk about their religion?', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}}, '_effective_user': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51223, 'date': 1587833408, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Why people use the classrooms to talk about their religion?', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 902907769, 'first_name': 'Andriani', 'is_bot': False, 'last_name': 'Loizidou', 'username': 'andriani25'}}}" caused error "'NoneType' object is not subscriptable"
-Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1034951294:AAFEAniaTScY9A00Z2H9YcNqDbGIrmyM8iI/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x045A1550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"
-Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1034951294:AAFEAniaTScY9A00Z2H9YcNqDbGIrmyM8iI/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x045A1520>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"
-Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1034951294:AAFEAniaTScY9A00Z2H9YcNqDbGIrmyM8iI/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x04C8B868>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"
-Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1034951294:AAFEAniaTScY9A00Z2H9YcNqDbGIrmyM8iI/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x045A13B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"
-Update "None" caused error "urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
-Update "{'update_id': 800564570, 'message': {'message_id': 719, 'date': 1587903195, 'chat': {'id': -431683629, 'type': 'group', 'title': 'English Test Group', 'all_members_are_administrators': True}, 'text': 'test', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 214196949, 'first_name': 'Thebotsguy', 'is_bot': False, 'username': 'Iameasyguy', 'language_code': 'en'}}, '_effective_user': {'id': 214196949, 'first_name': 'Thebotsguy', 'is_bot': False, 'username': 'Iameasyguy', 'language_code': 'en'}, '_effective_chat': {'id': -431683629, 'type': 'group', 'title': 'English Test Group', 'all_members_are_administrators': True}, '_effective_message': {'message_id': 719, 'date': 1587903195, 'chat': {'id': -431683629, 'type': 'group', 'title': 'English Test Group', 'all_members_are_administrators': True}, 'text': 'test', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 214196949, 'first_name': 'Thebotsguy', 'is_bot': False, 'username': 'Iameasyguy', 'language_code': 'en'}}}" caused error "__init__() missing 1 required positional argument: 'rank'"
-Update "{'update_id': 800564598, 'message': {'message_id': 51272, 'date': 1587907148, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Godd morning everyone', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}, '_effective_user': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}, '_effective_chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, '_effective_message': {'message_id': 51272, 'date': 1587907148, 'chat': {'id': -1001236265003, 'type': 'supergroup', 'title': 'Aula Magna'}, 'text': 'Godd morning everyone', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 378897794, 'first_name': 'Samuel', 'is_bot': False, 'last_name': 'Cirilo', 'username': 'Mokofix'}}}" caused error "'<=' not supported between instances of 'int' and 'NoneType'"
-Update "{'update_id': 800564605, 'message': {'message_id': 735, 'date': 1587913402, 'chat': {'id': -431683629, 'type': 'group', 'title': 'English Test Group', 'all_members_are_administrators': True}, 'text': 'Ok', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 538713359, 'first_name': 'Thebots', 'is_bot': False, 'last_name': 'guy', 'username': 'thebots_guy', 'language_code': 'en'}}, '_effective_user': {'id': 538713359, 'first_name': 'Thebots', 'is_bot': False, 'last_name': 'guy', 'username': 'thebots_guy', 'language_code': 'en'}, '_effective_chat': {'id': -431683629, 'type': 'group', 'title': 'English Test Group', 'all_members_are_administrators': True}, '_effective_message': {'message_id': 735, 'date': 1587913402, 'chat': {'id': -431683629, 'type': 'group', 'title': 'English Test Group', 'all_members_are_administrators': True}, 'text': 'Ok', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 538713359, 'first_name': 'Thebots', 'is_bot': False, 'last_name': 'guy', 'username': 'thebots_guy', 'language_code': 'en'}}}" caused error "Object of type User is not JSON serializable"
+2020-05-07 20:24:37,438 - utils.misc_fun - WARNING - starting session2020-05-07 14:39:00
+2020-05-07 23:02:15,484 - utils.misc_fun - WARNING - starting session2020-05-07 19:02:00
+2020-05-08 17:56:54,598 - utils.misc_fun - WARNING - starting session2020-05-15 12:34:00
+2020-05-08 17:56:54,606 - utils.misc_fun - WARNING - starting session2020-05-08 17:59:00
+2020-05-08 18:20:22,394 - utils.misc_fun - WARNING - starting session2020-05-15 12:34:00
+2020-05-08 18:20:22,404 - utils.misc_fun - WARNING - starting session2020-05-08 17:59:00
+2020-05-08 23:13:17,972 - utils.misc_fun - WARNING - starting session2020-05-08 20:16:00
+2020-05-08 23:24:59,492 - utils.misc_fun - WARNING - starting session2020-05-08 20:29:00
+2020-05-08 23:30:36,179 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:31:25
+bot type: None
+2020-05-08 23:31:11,825 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:32:00
+bot type: None
+2020-05-08 23:31:25,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:31:36,388 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:31:46,979 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:32:35
+2020-05-08 23:32:00,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:32:11,403 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:32:22,508 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:33:11
+2020-05-08 23:32:35,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:32:46,342 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:32:56,719 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:33:45
+2020-05-08 23:33:11,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:33:22,316 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:33:31,970 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:34:20
+2020-05-08 23:33:45,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:33:56,351 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:34:08,513 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:34:57
+2020-05-08 23:34:20,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:34:31,398 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:34:43,309 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:35:32
+2020-05-08 23:34:57,006 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:35:08,325 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:35:18,595 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:36:07
+2020-05-08 23:35:32,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:35:43,523 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:35:52,211 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:36:41
+2020-05-08 23:36:07,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:36:18,312 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:36:27,443 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:37:16
+2020-05-08 23:36:41,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:36:52,293 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:37:02,630 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:37:51
+2020-05-08 23:37:16,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:37:27,381 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:37:36,933 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:38:25
+2020-05-08 23:37:51,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:38:02,390 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:38:12,236 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:39:01
+2020-05-08 23:38:25,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:38:37,318 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:38:46,833 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:39:35
+2020-05-08 23:39:01,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:39:12,301 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:39:21,982 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:40:10
+2020-05-08 23:39:35,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:39:46,328 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:39:56,742 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:40:45
+2020-05-08 23:40:10,032 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:40:21,363 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:40:31,675 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:41:20
+2020-05-08 23:40:45,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:40:57,349 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:41:07,029 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:41:56
+2020-05-08 23:41:20,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:41:31,279 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:41:42,517 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:42:31
+2020-05-08 23:41:56,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:42:08,305 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:42:16,692 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:43:05
+2020-05-08 23:42:31,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:42:42,381 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:43:05,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:43:16,354 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:47:14,980 - utils.misc_fun - WARNING - starting session2020-05-08 20:47:00
+2020-05-08 23:48:36,148 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:49:25
+2020-05-08 23:49:11,183 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:50:00
+2020-05-08 23:49:25,006 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:49:36,305 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:49:46,268 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:50:35
+2020-05-08 23:50:00,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:50:11,272 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:50:21,156 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:51:10
+2020-05-08 23:50:35,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:50:46,649 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:50:56,198 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:51:45
+2020-05-08 23:51:10,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:51:21,354 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:51:31,140 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:52:20
+2020-05-08 23:51:45,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:51:56,336 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:52:06,276 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:52:55
+2020-05-08 23:52:20,031 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:52:31,329 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:52:41,184 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:53:30
+2020-05-08 23:52:55,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:53:06,371 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:53:16,293 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:54:05
+2020-05-08 23:53:30,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:53:41,673 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:53:51,174 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:54:40
+2020-05-08 23:54:05,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:54:16,313 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:54:26,345 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:55:15
+2020-05-08 23:54:40,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:54:51,361 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:55:01,152 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:55:50
+2020-05-08 23:55:15,063 - utils.misc_fun - WARNING - answer was posted
+2020-05-08 23:55:26,787 - utils.misc_fun - WARNING - message was deleted
+2020-05-08 23:55:36,239 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 20:56:25
+2020-05-08 23:55:50,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:06:25,412 - utils.misc_fun - WARNING - starting session2020-05-08 21:07:00
+2020-05-09 00:09:01,207 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:09:50
+2020-05-09 00:09:50,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:10:01,165 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:10:50
+2020-05-09 00:10:01,771 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:10:50,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:11:01,333 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:11:50
+2020-05-09 00:11:01,686 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:11:50,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:12:01,185 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:12:50
+2020-05-09 00:12:01,429 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:12:50,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:20:32,384 - utils.misc_fun - WARNING - starting session2020-05-08 21:22:00
+2020-05-09 00:23:36,640 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:23:56
+2020-05-09 00:23:56,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:24:02,405 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:24:11,189 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:24:31
+2020-05-09 00:24:31,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:24:36,274 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:24:47,166 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:25:07
+2020-05-09 00:25:07,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:25:12,237 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:25:21,538 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:25:41
+2020-05-09 00:25:41,031 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:25:46,337 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:25:58,330 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:26:18
+2020-05-09 00:26:18,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:26:23,346 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:26:32,539 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:26:52
+2020-05-09 00:26:52,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:26:58,124 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:27:07,936 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:27:27
+2020-05-09 00:27:27,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:27:37,150 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:27:42,933 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:28:02
+2020-05-09 00:28:02,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:28:10,330 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:28:20,677 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:28:40
+2020-05-09 00:28:40,033 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:28:46,683 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:28:54,175 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:29:14
+2020-05-09 00:29:14,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:29:19,896 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:29:28,491 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:29:48
+2020-05-09 00:29:48,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:29:53,320 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:30:03,846 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:30:23
+2020-05-09 00:30:23,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:30:29,382 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:30:38,260 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:30:58
+2020-05-09 00:30:58,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:31:04,413 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:31:11,591 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:31:31
+2020-05-09 00:31:31,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:31:36,896 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:32:23,623 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:32:43
+2020-05-09 00:32:43,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:32:49,520 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:32:57,692 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:33:17
+2020-05-09 00:33:17,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:33:22,993 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:33:32,949 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:33:52
+2020-05-09 00:33:52,032 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:33:57,985 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:34:08,110 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:34:28
+2020-05-09 00:34:43,031 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:35:03
+2020-05-09 00:35:03,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:35:09,225 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:35:18,983 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:35:38
+2020-05-09 00:35:38,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:35:43,959 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:45:38,934 - utils.misc_fun - WARNING - starting session2020-05-08 21:47:00
+2020-05-09 00:48:31,272 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:48:51
+bot type: Seshat
+creating student api called : True
+question level : 1
+bot type: Seshat
+creating student api called : True
+question level : 1
+2020-05-09 00:48:51,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:48:56,573 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:49:01,166 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:49:21
+2020-05-09 00:49:21,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:49:28,086 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:49:31,435 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:49:51
+bot type: Seshat
+creating student api called : False
+question level : 1
+2020-05-09 00:49:51,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:49:56,279 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:50:01,180 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:50:21
+bot type: Seshat
+creating student api called : False
+question level : 1
+2020-05-09 00:50:21,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:50:26,316 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:50:31,238 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:50:51
+2020-05-09 00:50:51,034 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:50:56,342 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:51:01,162 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:51:21
+bot type: Seshat
+creating student api called : False
+question level : 1
+2020-05-09 00:51:21,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:51:26,304 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:51:31,426 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:51:51
+bot type: Seshat
+creating student api called : False
+question level : 1
+2020-05-09 00:51:51,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:51:56,245 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:52:01,144 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:52:21
+2020-05-09 00:52:21,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:52:26,868 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:52:31,588 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:52:51
+2020-05-09 00:52:51,023 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:52:56,504 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:53:03,017 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:53:23
+bot type: Seshat
+2020-05-09 00:53:23,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:53:28,329 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:53:31,290 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:53:51
+bot type: Seshat
+2020-05-09 00:53:51,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:53:56,286 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:54:01,447 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:54:21
+2020-05-09 00:54:21,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 00:54:26,444 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 00:54:33,347 - utils.misc_fun - WARNING - Posting the answer at :2020-05-08 21:54:53
+2020-05-09 17:58:36,766 - utils.misc_fun - WARNING - starting session2020-05-12 21:34:00
+2020-05-09 17:59:10,059 - utils.misc_fun - WARNING - starting session2020-06-03 23:04:00
+bot type: Seshat
+2020-05-09 18:00:27,306 - utils.misc_fun - WARNING - starting session2020-05-09 15:03:00
+2020-05-09 18:04:41,186 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:05:11
+2020-05-09 18:05:11,023 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:05:17,409 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:05:21,389 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:05:51
+2020-05-09 18:05:51,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:05:57,600 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:06:01,360 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:06:31
+2020-05-09 18:06:31,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:06:37,365 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:06:41,170 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:07:11
+2020-05-09 18:07:11,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:07:17,847 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:07:21,207 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:07:51
+2020-05-09 18:07:51,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:07:57,324 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:08:01,202 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:08:31
+2020-05-09 18:08:31,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:08:37,374 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:08:41,225 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:09:11
+2020-05-09 18:09:11,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:09:17,351 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:09:21,169 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:09:51
+2020-05-09 18:09:51,025 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:09:57,394 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:10:01,160 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:10:31
+2020-05-09 18:10:31,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:10:37,505 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:10:41,329 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:11:11
+2020-05-09 18:11:11,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:11:17,474 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:11:21,141 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:11:51
+2020-05-09 18:11:51,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:11:57,275 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:12:01,333 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:12:31
+2020-05-09 18:12:31,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:12:37,341 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:12:41,105 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:13:11
+2020-05-09 18:13:11,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:13:17,310 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:13:21,179 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:13:51
+2020-05-09 18:13:51,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:13:57,314 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:14:01,184 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:14:31
+2020-05-09 18:14:31,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:14:37,362 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:14:41,322 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:15:11
+2020-05-09 18:15:11,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:15:17,364 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:15:21,247 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:15:51
+2020-05-09 18:15:51,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:15:57,378 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:16:01,216 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:16:31
+2020-05-09 18:16:31,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:16:37,466 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:16:41,103 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:17:11
+bot type: False
+2020-05-09 18:17:11,031 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:17:17,352 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:17:21,141 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:17:51
+bot type: False
+2020-05-09 18:17:51,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:21:21,257 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:21:51
+bot type: False
+2020-05-09 18:21:51,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:21:58,475 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:22:01,147 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:22:31
+2020-05-09 18:22:31,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:22:37,293 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:22:41,159 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:23:11
+2020-05-09 18:23:11,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:23:17,288 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:23:21,174 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:23:51
+bot type: False
+2020-05-09 18:23:51,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:23:57,329 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:24:01,230 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:24:31
+2020-05-09 18:26:41,196 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:27:11
+bot type: Tyche
+creating student api called : True
+question level : 1
+2020-05-09 18:27:11,023 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:27:17,414 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:27:21,187 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:27:51
+bot type: Tyche
+creating student api called : False
+question level : 1
+2020-05-09 18:27:51,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:27:57,373 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 18:28:01,157 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 15:28:31
+2020-05-09 18:28:31,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 18:28:37,339 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:05:11,318 - utils.misc_fun - WARNING - starting session2020-05-15 07:49:00
+2020-05-09 23:05:12,304 - utils.misc_fun - WARNING - starting session2020-05-09 20:05:00
+2020-05-09 23:06:43,279 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:07:13
+2020-05-09 23:07:13,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:07:21,619 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:07:23,283 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:07:53
+2020-05-09 23:09:15,302 - utils.misc_fun - WARNING - starting session2020-05-15 07:49:00
+2020-05-09 23:09:16,668 - utils.misc_fun - WARNING - starting session2020-05-09 20:13:00
+2020-05-09 23:14:58,091 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:15:28
+2020-05-09 23:15:28,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:15:36,660 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:15:56,326 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:16:26
+2020-05-09 23:16:26,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:16:32,716 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:16:46,450 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:17:16
+2020-05-09 23:17:16,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:17:22,302 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:17:41,157 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:18:11
+2020-05-09 23:18:11,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:18:17,781 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:18:36,469 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:19:06
+2020-05-09 23:19:06,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:19:12,356 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:19:31,213 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:20:01
+2020-05-09 23:20:01,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:20:07,374 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:20:26,169 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:20:56
+2020-05-09 23:20:56,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:21:02,295 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:21:21,173 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:21:51
+2020-05-09 23:21:51,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:21:57,358 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:22:17,616 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:22:47
+2020-05-09 23:22:47,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:22:55,340 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:23:13,360 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:23:43
+2020-05-09 23:23:43,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:23:51,433 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:24:07,850 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:24:37
+2020-05-09 23:24:37,023 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:24:46,335 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:25:02,757 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:25:32
+2020-05-09 23:25:32,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:25:40,584 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:26:53,084 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:27:23
+2020-05-09 23:27:23,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:27:31,724 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:27:49,178 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:28:19
+2020-05-09 23:28:19,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:28:27,255 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:28:43,839 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:29:13
+2020-05-09 23:29:13,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:29:23,055 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:29:37,839 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:30:07
+2020-05-09 23:30:07,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:30:15,937 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:30:33,319 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:31:03
+2020-05-09 23:31:03,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:31:10,887 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:41:36,000 - utils.misc_fun - WARNING - starting session2020-05-09 20:44:00
+2020-05-09 23:45:57,460 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:46:27
+2020-05-09 23:46:27,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:46:35,186 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:46:52,276 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:47:22
+2020-05-09 23:47:22,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:47:30,714 - utils.misc_fun - WARNING - message was deleted
+2020-05-09 23:47:48,207 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 20:48:18
+2020-05-09 23:48:18,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-09 23:48:26,364 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:01:00,287 - utils.misc_fun - WARNING - starting session2020-05-09 21:03:00
+2020-05-10 00:04:56,203 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:05:26
+bot type: Leizi
+creating student api called : True
+2020-05-10 00:06:46,203 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:07:16
+bot type: Leizi
+creating student api called : False
+question level : 1
+2020-05-10 00:07:16,025 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:07:22,304 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:07:41,185 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:08:11
+bot type: Leizi
+creating student api called : False
+question level : 1
+bot type: Leizi
+2020-05-10 00:08:11,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:08:17,286 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:08:36,091 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:09:06
+2020-05-10 00:09:06,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:09:12,329 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:09:32,193 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:10:02
+2020-05-10 00:10:02,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:10:08,268 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:10:26,190 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:10:56
+2020-05-10 00:10:56,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:11:02,255 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:11:21,108 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:11:51
+2020-05-10 00:11:51,041 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:11:57,522 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:12:16,136 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:12:46
+2020-05-10 00:12:46,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:12:52,294 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:13:11,156 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:13:41
+2020-05-10 00:13:41,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:13:47,304 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:14:06,145 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:14:36
+2020-05-10 00:14:36,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:14:42,289 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:15:01,133 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:15:31
+2020-05-10 00:15:31,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:15:37,332 - utils.misc_fun - WARNING - message was deleted
+2020-05-10 00:15:56,142 - utils.misc_fun - WARNING - Posting the answer at :2020-05-09 21:16:26
+2020-05-10 00:16:26,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-10 00:16:32,310 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:01:26,855 - utils.misc_fun - WARNING - starting session2020-05-11 18:04:00
+2020-05-11 21:11:28,562 - utils.misc_fun - WARNING - starting session2020-05-11 18:14:00
+2020-05-11 21:12:40,643 - utils.misc_fun - WARNING - starting session2020-05-11 18:14:00
+2020-05-11 21:13:31,968 - utils.misc_fun - WARNING - starting session2020-05-11 18:14:00
+2020-05-11 21:15:36,492 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:16:06
+2020-05-11 21:16:06,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:16:11,370 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:16:41
+2020-05-11 21:16:12,344 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:16:41,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:16:46,111 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:17:16
+2020-05-11 21:16:47,448 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:17:16,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:17:21,242 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:17:51
+2020-05-11 21:17:22,312 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:17:51,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:17:56,478 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:18:26
+2020-05-11 21:18:02,437 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:18:26,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:18:31,629 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:19:01
+2020-05-11 21:18:37,504 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:19:01,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:19:06,513 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:19:36
+2020-05-11 21:19:12,758 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:19:36,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:19:41,576 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:20:11
+2020-05-11 21:19:47,391 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:20:11,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:20:16,222 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:20:46
+2020-05-11 21:20:22,602 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:20:46,004 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:20:51,164 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:21:21
+2020-05-11 21:20:57,338 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:21:21,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:21:26,342 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:21:56
+2020-05-11 21:21:32,469 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:21:56,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:22:01,174 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:22:31
+2020-05-11 21:22:07,404 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:22:31,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:22:36,246 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:23:06
+2020-05-11 21:22:40,517 - utils.misc_fun - WARNING - starting session2020-05-11 18:25:00
+2020-05-11 21:22:42,605 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:23:06,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:23:11,187 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:23:41
+2020-05-11 21:23:17,373 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:23:52,475 - utils.misc_fun - WARNING - starting session2020-05-11 18:25:00
+2020-05-11 21:26:41,308 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:27:11
+2020-05-11 21:27:11,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:27:21,188 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:27:51
+2020-05-11 21:27:22,374 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:27:51,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:28:06,399 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:28:36
+2020-05-11 21:28:07,313 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:28:36,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:28:41,324 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:29:01
+2020-05-11 21:28:47,452 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:29:01,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:29:12,391 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:29:21,160 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:29:41
+2020-05-11 21:29:41,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:29:52,379 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:30:01,395 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:30:21
+2020-05-11 21:30:21,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:30:32,317 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:30:41,183 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:31:01
+2020-05-11 21:31:01,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:31:07,550 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:31:21,448 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:31:41
+2020-05-11 21:31:41,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:31:47,614 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:32:01,142 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:32:31
+2020-05-11 21:32:31,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:32:39,558 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:32:42,911 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:33:12
+2020-05-11 21:33:12,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:33:18,638 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:33:21,200 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:33:51
+2020-05-11 21:33:51,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:33:57,372 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:34:01,203 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:34:31
+2020-05-11 21:34:31,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:34:37,337 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 21:34:41,217 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:35:11
+2020-05-11 21:35:11,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:43:23,041 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 18:43:53
+2020-05-11 21:43:53,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 21:43:59,492 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 22:12:59,465 - utils.misc_fun - WARNING - starting session2020-05-11 19:16:00
+2020-05-11 22:17:31,988 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 19:17:51
+2020-05-11 22:17:51,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 22:17:58,048 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 22:18:02,759 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 19:18:22
+2020-05-11 22:18:22,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 22:18:29,684 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 22:18:32,852 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 19:18:52
+creating student api called : True
+question level : 1
+bot type: None
+creating student api called : False
+question level : 1
+creating student api called : False
+question level : 1
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+question level : 1
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+question level : 1
+creating student api called : False
+question level : 1
+creating student api called : False
+question level : 1
+creating student api called : False
+question level : 1
+creating student api called : False
+question level : 1
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+question level : 1
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+creating student api called : False
+bot type: Odin
+bot type: Odin
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+bot type: Odin
+creating student api called : False
+question level : 1
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-11 23:22:07,835 - utils.misc_fun - WARNING - starting session2020-05-11 20:24:00
+2020-05-11 23:25:41,271 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:26:11
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-11 23:26:11,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:26:17,389 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:26:21,176 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:26:51
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-11 23:26:51,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:26:57,429 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:27:01,094 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:27:31
+2020-05-11 23:27:31,023 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:27:38,092 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:27:41,302 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:28:11
+2020-05-11 23:28:11,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:28:17,457 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:28:21,474 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:28:51
+2020-05-11 23:28:51,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:28:57,364 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:29:01,243 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:29:31
+2020-05-11 23:29:31,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:29:37,330 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:29:41,138 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:30:11
+2020-05-11 23:30:11,025 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:30:17,277 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:30:21,149 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:30:51
+2020-05-11 23:30:51,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:30:57,629 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:31:01,154 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:31:31
+2020-05-11 23:31:31,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:31:37,366 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:31:41,211 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:32:11
+creating student api called : False
+2020-05-11 23:32:11,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:32:17,286 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:32:21,079 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:32:51
+2020-05-11 23:32:51,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:32:57,269 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:33:02,161 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:33:32
+2020-05-11 23:33:32,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:33:38,324 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:33:41,280 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:34:11
+2020-05-11 23:34:11,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:34:17,395 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:34:21,139 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:34:51
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-11 23:34:51,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:34:57,341 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:35:01,148 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:35:31
+2020-05-11 23:35:31,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:35:37,336 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:35:41,114 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:36:11
+2020-05-11 23:36:11,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:36:17,408 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:36:21,725 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:36:51
+2020-05-11 23:36:51,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:36:57,352 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:37:01,163 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:37:31
+2020-05-11 23:37:31,031 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:37:37,277 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:37:41,114 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:38:11
+creating student api called : False
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-11 23:38:11,025 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:38:17,326 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:38:21,143 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:38:51
+2020-05-11 23:38:51,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:39:01,143 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:39:31
+2020-05-11 23:39:31,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:39:37,359 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:39:41,164 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:40:11
+2020-05-11 23:40:11,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:40:17,394 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:40:21,304 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:40:51
+2020-05-11 23:40:51,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:40:57,310 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:41:01,125 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:41:31
+2020-05-11 23:41:31,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:41:37,544 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:41:41,182 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:42:11
+2020-05-11 23:42:11,046 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:42:17,422 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:42:21,210 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:42:51
+2020-05-11 23:42:51,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:42:57,305 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:43:01,128 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:43:31
+2020-05-11 23:43:31,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:43:37,327 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:43:41,294 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:44:11
+2020-05-11 23:44:11,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:44:17,340 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:44:21,184 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:44:51
+2020-05-11 23:44:51,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:44:57,453 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:45:01,257 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:45:31
+2020-05-11 23:45:31,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:45:37,510 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:45:41,083 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:46:11
+2020-05-11 23:46:11,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:46:17,355 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:46:21,126 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:46:51
+2020-05-11 23:46:51,032 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:46:57,300 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:47:01,119 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:47:31
+2020-05-11 23:47:31,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:47:37,328 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:47:41,193 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:48:11
+2020-05-11 23:48:11,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:48:17,267 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:48:21,147 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:48:51
+2020-05-11 23:48:51,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:48:57,255 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:49:01,136 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:49:31
+2020-05-11 23:49:31,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:49:37,286 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:49:41,118 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:50:11
+2020-05-11 23:50:11,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:50:17,250 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:50:21,109 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:50:51
+2020-05-11 23:50:51,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:50:57,441 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:51:01,141 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:51:31
+2020-05-11 23:51:31,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:51:37,446 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:51:41,240 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:52:11
+2020-05-11 23:52:11,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:52:17,295 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:52:21,092 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:52:51
+2020-05-11 23:52:51,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:52:57,590 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:53:01,111 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:53:31
+2020-05-11 23:53:31,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:53:37,269 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:53:41,183 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:54:11
+2020-05-11 23:54:11,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:54:17,394 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:54:21,226 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:54:51
+2020-05-11 23:54:51,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:54:57,407 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:55:01,120 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:55:31
+2020-05-11 23:55:31,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:55:37,446 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:55:41,136 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:56:11
+2020-05-11 23:56:11,006 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:56:17,497 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:56:21,098 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:56:51
+2020-05-11 23:56:51,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:56:57,334 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:57:01,112 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:57:31
+2020-05-11 23:57:31,030 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:57:37,500 - utils.misc_fun - WARNING - message was deleted
+2020-05-11 23:57:41,124 - utils.misc_fun - WARNING - Posting the answer at :2020-05-11 20:58:11
+2020-05-11 23:58:11,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-11 23:58:17,338 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:03:49,994 - utils.misc_fun - WARNING - starting session2020-05-14 03:56:00
+2020-05-14 07:05:07,093 - utils.misc_fun - WARNING - starting session2020-05-14 03:56:00
+2020-05-14 07:05:57,238 - utils.misc_fun - WARNING - starting session2020-05-14 03:56:00
+2020-05-14 07:07:21,220 - utils.misc_fun - WARNING - starting session2020-05-14 03:56:00
+2020-05-14 07:10:01,812 - utils.misc_fun - WARNING - starting session2020-05-14 04:12:00
+2020-05-14 07:19:56,343 - utils.misc_fun - WARNING - starting session2020-05-14 04:22:00
+2020-05-14 07:20:31,549 - utils.misc_fun - WARNING - starting session2020-05-14 04:22:00
+2020-05-14 07:23:52,521 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:24:22
+2020-05-14 07:24:22,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:24:28,341 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:24:42,904 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:25:12
+2020-05-14 07:25:12,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:25:18,299 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:25:31,992 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:26:01
+2020-05-14 07:26:01,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:26:07,298 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:26:22,067 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:26:52
+2020-05-14 07:26:52,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:26:58,261 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:27:12,147 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:27:42
+2020-05-14 07:28:08,460 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:28:38
+2020-05-14 07:28:38,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:28:48,831 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:29:06,188 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:29:36
+2020-05-14 07:29:36,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:29:47,103 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:29:52,683 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:30:22
+2020-05-14 07:30:22,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:30:32,471 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:30:40,507 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:31:10
+2020-05-14 07:31:10,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:31:16,338 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:31:21,937 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:31:51
+2020-05-14 07:31:51,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:31:57,469 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:32:12,368 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:32:42
+2020-05-14 07:32:42,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:32:48,244 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:33:02,545 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:33:32
+2020-05-14 07:33:32,023 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:33:38,313 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:33:52,008 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:34:21
+2020-05-14 07:34:21,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:34:27,806 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:34:42,901 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:35:12
+2020-05-14 07:35:12,042 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:35:18,476 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:35:31,961 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:36:01
+2020-05-14 07:36:01,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:36:07,371 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:36:22,425 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:36:52
+2020-05-14 07:36:52,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:36:58,349 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:37:12,026 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:37:42
+2020-05-14 07:37:42,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:37:48,288 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:38:01,912 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:38:31
+2020-05-14 07:38:31,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:38:37,376 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:39:42,404 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:40:12
+bot type: Zamo
+creating student api called : True
+question level : 1
+2020-05-14 07:40:12,035 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:40:18,344 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:40:32,324 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:41:02
+bot type: Zamo
+creating student api called : False
+question level : 1
+2020-05-14 07:41:02,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:41:08,297 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:41:21,976 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:41:51
+2020-05-14 07:41:51,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:41:57,382 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:42:12,046 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:42:42
+2020-05-14 07:42:42,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:42:48,355 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:43:02,043 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:43:32
+bot type: Zamo
+creating student api called : False
+question level : 1
+2020-05-14 07:43:32,031 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:43:38,374 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:43:52,413 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:44:22
+2020-05-14 07:44:22,036 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:44:28,331 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:44:42,114 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:45:12
+2020-05-14 07:45:12,047 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:45:18,588 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:45:32,675 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:46:02
+2020-05-14 07:46:02,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:46:08,476 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:46:22,585 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:46:52
+2020-05-14 07:46:52,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:46:58,529 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:47:12,355 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:47:42
+2020-05-14 07:47:42,035 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:47:48,724 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:48:02,182 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:48:32
+2020-05-14 07:48:32,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:48:38,583 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:48:52,374 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:49:22
+2020-05-14 07:49:22,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:49:28,652 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:49:42,232 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:50:12
+2020-05-14 07:50:12,039 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:50:18,520 - utils.misc_fun - WARNING - message was deleted
+2020-05-14 07:50:32,189 - utils.misc_fun - WARNING - Posting the answer at :2020-05-14 04:51:02
+2020-05-14 07:51:02,037 - utils.misc_fun - WARNING - answer was posted
+2020-05-14 07:51:08,504 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 21:00:20,752 - utils.misc_fun - WARNING - starting session2020-05-15 18:03:00
+2020-05-15 22:34:07,560 - utils.misc_fun - WARNING - starting session2020-05-15 19:38:00
+2020-05-15 22:40:16,388 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:40:46
+2020-05-15 22:40:42,731 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:41:12
+2020-05-15 22:40:46,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:40:53,838 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:41:08,983 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:41:38
+2020-05-15 22:41:12,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:41:19,193 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:41:38,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:41:42,406 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:42:12
+2020-05-15 22:41:48,640 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:41:59,798 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:42:29
+2020-05-15 22:42:12,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:42:29,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:42:36,629 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:42:47,348 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:43:17
+2020-05-15 22:43:13,606 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:43:43
+2020-05-15 22:43:17,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:43:24,828 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:46:59,245 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:47:29
+2020-05-15 22:47:26,889 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:47:56
+2020-05-15 22:47:29,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:47:35,997 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:47:48,244 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:48:18
+2020-05-15 22:47:56,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:48:04,348 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:48:15,985 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:48:45
+2020-05-15 22:48:18,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:48:27,197 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:48:36,661 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:49:06
+2020-05-15 22:49:51,884 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:50:21
+2020-05-15 22:50:21,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:50:22,668 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:50:52
+2020-05-15 22:50:33,669 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:50:44,582 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:51:14
+2020-05-15 22:50:52,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:51:04,434 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:51:07,602 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:51:37
+2020-05-15 22:51:14,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:51:27,457 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:51:33,197 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:52:03
+2020-05-15 22:51:37,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:51:57,595 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:52:27
+2020-05-15 22:52:03,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:52:49,649 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:53:19
+2020-05-15 22:53:14,699 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:53:44
+2020-05-15 22:53:19,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:53:26,091 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:53:36,956 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:54:06
+2020-05-15 22:53:44,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:53:54,523 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:54:04,837 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:54:34
+2020-05-15 22:54:06,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:54:16,367 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 22:54:27,177 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:54:57
+2020-05-15 22:54:34,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:54:55,284 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:55:25
+2020-05-15 22:54:57,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:55:17,033 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 19:55:46
+2020-05-15 22:55:25,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 22:57:15,879 - utils.misc_fun - WARNING - starting session2020-05-15 20:01:00
+2020-05-15 23:02:32,578 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:03:02
+2020-05-15 23:03:02,023 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:03:07,944 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:03:37
+2020-05-15 23:03:15,146 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:03:32,444 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:04:02
+2020-05-15 23:03:37,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:03:55,344 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:04:02,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:04:03,544 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:04:33
+2020-05-15 23:04:15,093 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:04:33,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:04:34,412 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:05:04
+2020-05-15 23:04:45,872 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:05:02,429 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:05:32
+2020-05-15 23:05:04,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:05:21,184 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:05:32,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:05:47,484 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:06:11,100 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:06:21
+2020-05-15 23:06:21,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:06:29,151 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:06:33,876 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:06:43
+2020-05-15 23:06:43,006 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:06:49,834 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:07:02,382 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:07:12
+2020-05-15 23:07:12,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:07:20,134 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:07:33,515 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:07:43
+2020-05-15 23:07:43,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:07:54,648 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:08:01,664 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:08:11
+2020-05-15 23:08:11,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:08:19,585 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:08:32,284 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:08:42
+2020-05-15 23:08:42,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:08:53,015 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:09:03,633 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:09:13
+2020-05-15 23:09:13,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:09:24,098 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:09:39,615 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:09:49
+2020-05-15 23:09:49,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:09:56,067 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:10:03,402 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:10:13
+2020-05-15 23:10:13,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:10:22,916 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:10:32,242 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:10:42
+2020-05-15 23:10:42,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:10:54,770 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:11:03,587 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:11:13
+2020-05-15 23:11:13,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:11:23,026 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:11:35,128 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:11:45
+2020-05-15 23:11:45,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:11:52,184 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:12:01,389 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:12:11
+2020-05-15 23:12:11,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:12:19,494 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:12:32,195 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:12:42
+2020-05-15 23:12:42,006 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:12:49,510 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:13:02,213 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:13:12
+2020-05-15 23:13:12,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:13:21,181 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:14:02,196 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:14:12
+2020-05-15 23:14:12,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:14:19,922 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:14:33,433 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:14:43
+2020-05-15 23:14:43,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:16:58,002 - utils.misc_fun - WARNING - starting session2020-05-15 20:19:00
+2020-05-15 23:20:27,156 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:20:37
+2020-05-15 23:20:37,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:20:44,567 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:20:53,164 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:21:03
+2020-05-15 23:21:03,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:21:11,949 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:21:17,263 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:21:27
+2020-05-15 23:21:27,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:21:34,470 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:21:42,334 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:21:52
+2020-05-15 23:21:52,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:22:04,482 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:22:07,777 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:22:17
+2020-05-15 23:22:17,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:22:25,749 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:22:32,667 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:22:42
+2020-05-15 23:22:42,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:22:51,958 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:22:56,794 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:23:06
+2020-05-15 23:23:06,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:23:14,841 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:23:21,787 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:23:31
+2020-05-15 23:23:31,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:23:39,319 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:23:47,243 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:23:57
+2020-05-15 23:23:57,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:24:08,692 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:24:12,279 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:24:22
+2020-05-15 23:24:22,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:24:31,057 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:24:36,678 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:24:46
+2020-05-15 23:24:46,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:25:05,379 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:25:15
+2020-05-15 23:25:15,034 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:25:24,956 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:25:31,101 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:25:41
+2020-05-15 23:25:41,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:25:47,819 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:25:54,612 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:26:04
+2020-05-15 23:26:04,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:26:15,893 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:26:18,801 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:26:28
+2020-05-15 23:26:28,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:26:36,862 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:26:42,162 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:26:52
+2020-05-15 23:26:52,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:26:59,512 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:49:17,315 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:49:27
+2020-05-15 23:49:27,022 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:49:35,589 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:49:43,315 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:49:53
+2020-05-15 23:49:53,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:50:06,294 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:50:06,460 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:50:16
+2020-05-15 23:50:16,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:50:24,921 - utils.misc_fun - WARNING - message was deleted
+2020-05-15 23:50:31,209 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:50:41
+2020-05-15 23:50:41,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-15 23:51:18,353 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 20:51:28
+creating student api called : False
+creating student api called : False
+2020-05-16 00:04:33,068 - utils.misc_fun - WARNING - starting session2020-05-16 09:06:00
+2020-05-16 00:11:58,224 - utils.misc_fun - WARNING - starting session2020-05-15 21:14:00
+2020-05-16 00:15:26,148 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:15:36
+2020-05-16 00:15:36,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:15:42,450 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:15:51,665 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:16:01
+2020-05-16 00:16:01,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:16:07,337 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:16:16,508 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:16:26
+2020-05-16 00:16:26,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:16:32,429 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:16:41,683 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:16:51
+2020-05-16 00:16:51,012 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+2020-05-16 00:16:57,573 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:17:06,283 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:17:16
+2020-05-16 00:17:16,023 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+2020-05-16 00:17:22,450 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:17:31,150 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:17:41
+creating student api called : False
+2020-05-16 00:17:41,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:17:47,420 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:17:56,429 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:18:06
+2020-05-16 00:18:06,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:18:12,452 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:18:21,974 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:18:31
+2020-05-16 00:18:31,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:18:37,865 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:18:46,134 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:18:56
+2020-05-16 00:18:56,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:19:11,206 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:19:21
+creating student api called : False
+2020-05-16 00:19:21,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:19:27,320 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:19:36,152 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:19:46
+2020-05-16 00:19:46,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:19:52,397 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:20:01,133 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:20:11
+2020-05-16 00:20:11,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:20:17,497 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:20:26,101 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:20:36
+creating student api called : False
+2020-05-16 00:20:36,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:20:42,315 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:20:51,108 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:21:01
+2020-05-16 00:21:01,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:21:07,750 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:21:16,173 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:21:26
+creating student api called : False
+2020-05-16 00:21:26,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:21:32,444 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:21:41,159 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:21:51
+2020-05-16 00:21:51,003 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:21:57,349 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:22:06,349 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:22:16
+creating student api called : False
+creating student api called : False
+question level : 1
+2020-05-16 00:22:16,031 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:22:22,422 - utils.misc_fun - WARNING - message was deleted
+creating student api called : False
+2020-05-16 00:22:31,137 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:22:41
+creating student api called : False
+question level : 1
+2020-05-16 00:22:41,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:22:47,281 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:22:56,437 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:23:06
+creating student api called : False
+creating student api called : False
+question level : 1
+2020-05-16 00:23:06,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:23:12,300 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:23:21,142 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:23:31
+creating student api called : False
+question level : 1
+2020-05-16 00:23:31,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:23:37,287 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:23:46,261 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:23:56
+2020-05-16 00:23:56,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:24:02,320 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:24:12,161 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:24:22
+2020-05-16 00:24:22,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:24:28,326 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:24:36,154 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:24:46
+2020-05-16 00:24:46,010 - utils.misc_fun - WARNING - answer was posted
+creating student api called : True
+question level : 1
+2020-05-16 00:24:52,913 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:25:01,152 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:25:11
+2020-05-16 00:25:11,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:25:17,356 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:25:26,154 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:25:36
+2020-05-16 00:25:36,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:25:42,304 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:25:51,088 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:26:01
+2020-05-16 00:26:01,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:26:07,286 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:26:16,406 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:26:26
+2020-05-16 00:26:26,008 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+2020-05-16 00:26:41,304 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:26:51
+creating student api called : False
+question level : 1
+creating student api called : False
+question level : 1
+2020-05-16 00:26:51,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:26:57,314 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:27:06,112 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:27:16
+creating student api called : False
+question level : 1
+2020-05-16 00:27:16,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:27:22,542 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:27:31,974 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:27:41
+2020-05-16 00:27:41,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:27:53,232 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:27:56,201 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:28:06
+2020-05-16 00:28:06,005 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+2020-05-16 00:28:12,595 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:28:21,162 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:28:31
+creating student api called : False
+question level : 1
+2020-05-16 00:28:31,019 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+2020-05-16 00:28:38,462 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:28:46,087 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:28:56
+creating student api called : False
+question level : 1
+2020-05-16 00:28:56,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:29:02,225 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:29:11,099 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:29:21
+creating student api called : False
+question level : 1
+2020-05-16 00:29:21,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:29:32,190 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:29:41,820 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:29:51
+2020-05-16 00:29:51,033 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:30:03,945 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:30:04,735 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:30:14
+2020-05-16 00:30:14,005 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:30:25,005 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:30:35,530 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:30:45
+2020-05-16 00:30:45,022 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+2020-05-16 00:30:54,664 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:31:04
+2020-05-16 00:30:55,517 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:31:04,012 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+2020-05-16 00:31:18,309 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:31:22,935 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:31:32
+2020-05-16 00:31:32,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:31:42,824 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:31:46,387 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:31:56
+2020-05-16 00:31:56,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:32:09,247 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:32:10,870 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:32:20
+creating student api called : False
+2020-05-16 00:32:20,013 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+creating student api called : False
+question level : 1
+2020-05-16 00:32:29,345 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:32:31,446 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:32:41
+2020-05-16 00:32:41,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:32:52,210 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:32:58,877 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:33:08
+2020-05-16 00:33:08,023 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+creating student api called : False
+2020-05-16 00:33:19,011 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:33:21,131 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:33:31
+2020-05-16 00:33:31,011 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+2020-05-16 00:33:43,071 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:33:46,167 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:33:56
+creating student api called : False
+question level : 1
+2020-05-16 00:33:56,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:34:02,239 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:34:11,105 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:34:21
+2020-05-16 00:34:21,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:34:27,298 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:34:37,876 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:34:47
+2020-05-16 00:34:47,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:34:55,296 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:35:01,204 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:35:11
+creating student api called : False
+question level : 1
+2020-05-16 00:35:11,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:35:17,281 - utils.misc_fun - WARNING - message was deleted
+creating student api called : False
+2020-05-16 00:35:26,196 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:35:36
+creating student api called : False
+question level : 1
+2020-05-16 00:35:36,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:35:42,345 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:35:53,549 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:36:03
+2020-05-16 00:36:03,007 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:36:18,286 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:36:19,017 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:36:29
+2020-05-16 00:36:29,008 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:36:40,147 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:36:44,654 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:36:54
+2020-05-16 00:36:54,014 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+2020-05-16 00:37:04,960 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:37:07,357 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:37:17
+2020-05-16 00:37:17,006 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:37:25,690 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:37:32,155 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:37:42
+2020-05-16 00:37:42,013 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:37:48,318 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:37:56,210 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:38:06
+2020-05-16 00:38:06,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:38:12,478 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:38:21,384 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:38:31
+2020-05-16 00:38:31,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:38:37,468 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:38:46,794 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:38:56
+creating student api called : False
+question level : 1
+2020-05-16 00:38:56,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:39:02,977 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:39:11,135 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:39:21
+2020-05-16 00:39:21,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:39:27,321 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:39:36,111 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:39:46
+creating student api called : False
+question level : 1
+2020-05-16 00:39:46,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:39:52,279 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:40:01,249 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:40:11
+2020-05-16 00:40:11,007 - utils.misc_fun - WARNING - answer was posted
+creating student api called : False
+question level : 1
+2020-05-16 00:40:17,249 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:40:26,190 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:40:36
+2020-05-16 00:40:36,012 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:40:43,220 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:40:51,184 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:41:01
+2020-05-16 00:41:01,006 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:41:07,413 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:41:16,160 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:41:26
+2020-05-16 00:41:26,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:41:32,562 - utils.misc_fun - WARNING - message was deleted
+2020-05-16 00:41:41,128 - utils.misc_fun - WARNING - Posting the answer at :2020-05-15 21:41:51
+2020-05-16 00:41:51,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-16 00:41:57,870 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:46:26,989 - utils.misc_fun - WARNING - starting session2020-05-17 16:48:00
+2020-05-17 19:47:52,640 - utils.misc_fun - WARNING - starting session2020-05-17 16:48:00
+2020-05-17 19:48:52,033 - utils.misc_fun - WARNING - starting session2020-05-17 16:48:00
+2020-05-17 19:49:43,731 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:50:13
+creating student api called : False
+2020-05-17 19:50:13,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:50:20,323 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:50:25,560 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:50:55
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-17 19:50:55,030 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:51:02,096 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:51:07,727 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:51:37
+2020-05-17 19:51:37,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:51:44,836 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:51:49,691 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:52:19
+2020-05-17 19:52:19,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:52:26,152 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:52:31,739 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:53:01
+2020-05-17 19:53:01,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:53:07,977 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:53:13,985 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:53:43
+2020-05-17 19:53:43,026 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:53:51,710 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:53:56,800 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:54:26
+2020-05-17 19:54:26,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:54:36,530 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:54:39,056 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:55:09
+2020-05-17 19:55:09,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:55:16,265 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:55:21,277 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:55:51
+2020-05-17 19:55:51,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:55:58,005 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:56:01,828 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:56:31
+2020-05-17 19:56:31,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:56:39,903 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:56:52,217 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:57:22
+2020-05-17 19:57:22,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:57:26,310 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:57:56
+2020-05-17 19:57:30,305 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:57:56,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:58:03,060 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:58:08,760 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:58:38
+2020-05-17 19:58:38,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:58:45,752 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:58:50,480 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 16:59:20
+2020-05-17 19:59:20,017 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 19:59:28,456 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 19:59:32,244 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:00:02
+2020-05-17 20:00:02,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:00:10,644 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:00:15,435 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:00:45
+2020-05-17 20:00:45,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:00:56,908 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:01:26
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-17 20:01:26,009 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:01:35,949 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:01:38,110 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:02:08
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-17 20:02:08,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:02:16,499 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:02:20,513 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:02:50
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-17 20:02:50,010 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:02:57,872 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:03:02,260 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:03:32
+2020-05-17 20:03:32,014 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:03:40,017 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:03:44,387 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:04:14
+2020-05-17 20:04:14,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:04:22,096 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:04:26,553 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:04:56
+2020-05-17 20:04:56,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:05:03,819 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:05:07,895 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:05:37
+creating student api called : False
+bot type: Odin
+creating student api called : False
+question level : 1
+2020-05-17 20:05:37,016 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:05:45,390 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:05:50,734 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:06:20
+2020-05-17 20:06:20,027 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:06:29,114 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:06:33,023 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:07:03
+2020-05-17 20:07:03,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:07:14,271 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:07:17,120 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:07:47
+2020-05-17 20:07:47,020 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:07:55,100 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:07:56,333 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:08:26
+2020-05-17 20:10:04,764 - utils.misc_fun - WARNING - starting session2020-05-17 17:13:00
+2020-05-17 20:14:34,820 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:14:54
+2020-05-17 20:14:54,023 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:15:01,027 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:15:03,909 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:15:23
+2020-05-17 20:15:23,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:15:30,102 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:15:33,244 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:15:53
+2020-05-17 20:15:53,011 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:16:01,806 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:16:02,779 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:16:22
+2020-05-17 20:16:22,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:16:29,036 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:17:02,580 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:17:22
+2020-05-17 20:17:22,018 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:17:29,299 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:20:02,599 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:20:22
+2020-05-17 20:20:22,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:20:29,953 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:21:33,815 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:21:53
+2020-05-17 20:21:53,015 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:22:00,192 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:22:02,714 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:22:22
+2020-05-17 20:22:22,033 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:22:29,206 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:22:34,262 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:22:54
+2020-05-17 20:22:54,032 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:23:02,428 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:23:04,345 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:23:24
+2020-05-17 20:23:24,021 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:23:33,312 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:26:32,394 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:26:52
+2020-05-17 20:26:52,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:26:58,957 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:27:02,854 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:27:22
+2020-05-17 20:27:22,032 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:27:28,581 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:28:04,801 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:28:24
+2020-05-17 20:28:24,024 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:28:31,098 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:28:32,870 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:28:52
+2020-05-17 20:28:52,032 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:28:59,046 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:29:32,361 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:29:52
+2020-05-17 20:29:52,029 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:29:57,841 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:30:32,243 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:30:52
+2020-05-17 20:30:52,019 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:30:57,865 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:31:02,504 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:31:22
+2020-05-17 20:31:22,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:31:27,952 - utils.misc_fun - WARNING - message was deleted
+2020-05-17 20:31:33,185 - utils.misc_fun - WARNING - Posting the answer at :2020-05-17 17:31:53
+2020-05-17 20:31:53,028 - utils.misc_fun - WARNING - answer was posted
+2020-05-17 20:31:58,674 - utils.misc_fun - WARNING - message was deleted
+2020-05-24 20:42:20,667 - utils.misc_fun - WARNING - starting session2020-05-28 12:49:00
+2020-05-24 20:42:21,579 - utils.misc_fun - WARNING - starting session2020-05-24 17:59:00

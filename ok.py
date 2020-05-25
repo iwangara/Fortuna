@@ -1,77 +1,83 @@
-import utils
-import botify
-import configs
-import requests
-sql= utils.DBHelper()
-#
-name="easyguy"
-userid =907856
-group_title ="Test"
-# botify.create_student(userid=userid,name=name)
-#
-# student=utils.Student(userid=userid,language=configs.LANGUAGE).get_data()
-# africa=student[0]['fortunas']
-# apollo =student[0]['fortunas']
-# utils.CUMessages(userid=userid,language=configs.LANGUAGE).get_data()
-# position =utils.StudentPosition(userId=userid).get_position()
-# messages =utils.GetMessages(userid=userid,language=configs.LANGUAGE).get_data()
-# student_point = utils.GetFortuna(userid,configs.LANGUAGE).get_data()
-"""Levels Data"""
-level =utils.Levels().get_data()
-elementarypts=level[0]['points']
-intermediatepts=level[1]['points']
-advancedpts=level[2]['points']
-"""RANKS DATA"""
-ranks =utils.Ranks().get_data()
-studentmsg=ranks[0]['messages']
-studentpts=ranks[0]['points']
-apprenticemsg=ranks[1]['messages']
-apprenticepts=ranks[1]['points']
-followermsg=ranks[2]['messages']
-followerpts=ranks[2]['points']
-instructormsg=ranks[3]['messages']
-instructorpts=ranks[3]['points']
-mentormsg=ranks[4]['messages']
-mentorpts=ranks[4]['points']
-teachermsg=ranks[5]['messages']
-teacherpts=ranks[5]['points']
-scholarmsg=ranks[6]['messages']
-scholarpts=ranks[6]['points']
-mastermsg=ranks[7]['messages']
-masterpts=ranks[7]['points']
-eminencemsg=ranks[8]['messages']
-eminencepts=ranks[8]['points']
-gurumsg=ranks[9]['messages']
-gurupts=ranks[9]['points']
-titanmsg=ranks[10]['messages']
-titanpts=ranks[10]['points']
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# This program is dedicated to the public domain under the CC0 license.
+
+"""
+Basic example for a bot that works with polls. Only 3 people are allowed to interact with each
+poll/quiz the bot generates. The preview command generates a closed poll/quiz, excatly like the
+one the user sends the bot
+"""
+import logging
+from configs import TOKEN,GROUPID
+from telegram import (Poll, ParseMode, KeyboardButton, KeyboardButtonPollType,
+                      ReplyKeyboardMarkup, ReplyKeyboardRemove)
+from telegram.ext import (Updater, CommandHandler, PollAnswerHandler, PollHandler, MessageHandler,
+                          Filters)
+from telegram.utils.helpers import mention_html
+
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
-user_messages =20000
-totalpts=40000
+def start(update, context):
+    """Inform user about what this bot can do"""
+    update.message.reply_text('Please select /poll to get a Poll, /quiz to get a Quiz or /preview'
+                              ' to generate a preview for your poll')
+
+def receive_poll_answer(update, context):
+    print(update)
 
 
-# If a is more than 10 but less than 20, print this:
-# if 10 < a < 20:
-if (studentmsg<=user_messages<apprenticemsg) and (studentpts<=totalpts<apprenticepts):
-    print("student")
-elif(apprenticemsg<=user_messages<followermsg) and (apprenticepts<=totalpts<followerpts):
-    print("apprentice")
-elif(followermsg <=user_messages<instructormsg) and(followerpts<=totalpts<instructorpts):
-    print('follower')
-elif(instructormsg<=user_messages<mentormsg) and (instructorpts<=totalpts<mentorpts):
-    print('instructor')
-elif(mentormsg<=user_messages<teachermsg) and (mentorpts<=totalpts<teacherpts):
-    print('mentor')
-elif(teachermsg<=user_messages<scholarmsg) and (teacherpts<=totalpts<scholarpts):
-    print("teacher")
-elif(scholarmsg<=user_messages<mastermsg) and (scholarpts<=totalpts<masterpts):
-    print('scholar')
-elif(mastermsg<=user_messages<eminencemsg) and (masterpts<=totalpts<eminencepts):
-    print("master")
-elif(eminencemsg<=user_messages<gurumsg) and (eminencepts<=totalpts<gurupts):
-    print("eminence")
-elif (gurumsg<=user_messages<titanmsg) and(gurupts>=totalpts<titanpts):
-    print("guru")
-elif (user_messages>=titanmsg) and (totalpts>=titanpts):
-    print('titan')
+def quiz(update, context):
+    """Send a predefined poll"""
+    questions = ["1", "2", "4", "20"]
+    message = update.effective_message.reply_poll("How many eggs do you need for a cake?",
+                                                  questions, type=Poll.QUIZ,is_anonymous=False, correct_option_id=2,explanation='oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo',open_period=6)
+    # Save some info about the poll the bot_data for later use in receive_quiz_answer
+    payload = {message.poll.id: {"chat_id": update.effective_chat.id,
+                                 "message_id": message.message_id}}
+    print(message)
+    context.bot_data.update(payload)
+
+
+
+def receive_poll(update, context):
+    print(update,"fffffffff")
+    """On receiving polls, reply to it by a closed poll copying the received poll"""
+    actual_poll = update.effective_message.poll
+    # Only need to set the question and options, since all other parameters don't matter for
+    # a closed poll
+    update.effective_message.reply_poll(
+        question=actual_poll.question,
+        options=[o.text for o in actual_poll.options],
+        # with is_closed true, the poll/quiz is immediately closed
+        is_closed=True
+    )
+
+
+def main():
+    # Create the Updater and pass it your bot's token.
+    # Make sure to set use_context=True to use the new context based callbacks
+    # Post version 12 this will no longer be necessary
+    updater = Updater(TOKEN, use_context=True)
+    dp = updater.dispatcher
+    dp.add_handler(CommandHandler('start', start))
+
+    dp.add_handler(PollAnswerHandler(receive_poll_answer))
+    dp.add_handler(CommandHandler('quiz', quiz))
+    # dp.add_handler(PollHandler(receive_quiz_answer))
+
+    dp.add_handler(MessageHandler(Filters.poll, receive_poll))
+
+
+    # Start the Bot
+    updater.start_polling()
+
+    # Run the bot until the user presses Ctrl-C or the process receives SIGINT,
+    # SIGTERM or SIGABRT
+    updater.idle()
+
+
+if __name__ == '__main__':
+    main()

@@ -26,11 +26,11 @@ def session_time(start_time,period):
     return amin
 
 def post_time(start_time,period):
-    datetime_object = datetime.datetime.strptime(start_time, "%Y-%m-%d %H:%M")
+    datetime_object = datetime.datetime.strptime(str(start_time), "%Y-%m-%d %H:%M")
     amin = datetime_object + datetime.timedelta(seconds=int(period))
     return amin
 
 
-SCHED = BackgroundScheduler(jobstores=jobstores, executors=executors, job_defaults=job_defaults)#, timezone=utc)
+SCHED = BackgroundScheduler(jobstores=jobstores, executors=executors, job_defaults=job_defaults,timezone=utc)
 
 # schedi().start()
