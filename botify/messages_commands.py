@@ -48,7 +48,7 @@ def message_counter(update, context):
             utils.CUMessages(userid=user.id, language=configs.LANGUAGE).get_data()
             # now get the messages
             user_messages = utils.GetMessages(userid=user.id, language=configs.LANGUAGE).get_data()
-
+            print("check notice",sql.check_notice(userid=user.id, rank='Student'))
             if (studentpts <= totalpts < apprenticepts) and (user_messages>=studentmsg ):
                 rank = 'Student'
                 # check if the user congrats message was posted
@@ -592,6 +592,25 @@ def settopic(update, context):
             context.bot.pin_chat_message(chat_id=group_id, message_id=message_id)
 
 
+
+def ask_donation(update, context):
+    user = update.message.from_user
+    print(user)
+    chat_type = update.message.chat.type
+    admins = utils.Admin(userid=user.id, language=configs.LANGUAGE).get_data()
+    text = emoji.emojize(f":sos:To support our teachers, maintain Ra bot ON and keep Learning Creators free for all, we depend on your support. Any donation is highly appreciated. Thank you!",use_aliases=True)
+    key_main = [[InlineKeyboardButton(emoji.emojize(":heart:Donate:heart:", use_aliases=True),
+                                      url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WJYMNYLP9TQHL&source=url")]]
+    main_markup = InlineKeyboardMarkup(key_main)
+
+    print(admins)
+    if admins==True:
+        payload = context.bot.send_message(chat_id=configs.GROUPID, text=text, disable_web_page_preview=True,
+                                           parse_mode='HTML', reply_markup=main_markup)
+        message_id = payload.result().message_id
+        context.bot.pin_chat_message(chat_id=configs.GROUPID, message_id=message_id)
+
+
 def myra(update, context):
     user = update.message.from_user
     student = utils.Student(userid=user.id, language=configs.LANGUAGE).get_data()
@@ -646,3 +665,24 @@ def session_manager(update, context):
                                               reply_markup=main_markup, parse_mode='markdown')
             else:
                 update.message.reply_text("No session available at the moment.")
+
+
+def solo_learn(update, context):
+    data = utils.remove_html_tags(utils.BotMessages(id=28).get_message()).split('.')
+    msg =".\n".join(data)
+    key_main = [[InlineKeyboardButton('Africa', callback_data='solo_africa'),
+                 InlineKeyboardButton('Apollo', callback_data='solo_apollo')],
+                [InlineKeyboardButton('Gaia', callback_data='solo_gaia'),
+                 InlineKeyboardButton('Kadlu', callback_data='solo_kadlu')],
+                [InlineKeyboardButton('Leizi', callback_data='solo_leizi'),
+                 InlineKeyboardButton('Nuwa', callback_data='solo_nuwa')],
+                [InlineKeyboardButton('Odin', callback_data='solo_odin'),
+                 InlineKeyboardButton('Seshat', callback_data='solo_seshat')],
+                [InlineKeyboardButton('Tyche', callback_data='solo_tyche'),
+                 InlineKeyboardButton('Wala', callback_data='solo_wala')],
+                [InlineKeyboardButton('Zamo', callback_data='solo_zamo'),
+                 InlineKeyboardButton('Instructions', url='https://telegra.ph/Ra-v3-tutorials-05-08')],
+                [InlineKeyboardButton('Donate',
+                                      url='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WJYMNYLP9TQHL&source=url')]]
+    main_markup = InlineKeyboardMarkup(key_main)
+    update.message.reply_text(emoji.emojize(msg, use_aliases=True),reply_markup=main_markup, parse_mode='html')

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="main" uuid="149acec5-3e10-47df-9925-a2c42b0d6a90">
+    <data-source source="LOCAL" name="jobs" uuid="2f11d243-a896-4e44-a99c-1257fc5c8460">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\MITCH\PycharmProjects\fortuna\main.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\MITCH\PycharmProjects\fortuna\jobs.sqlite</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
@@ -18,11 +18,11 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="jobs" uuid="2f11d243-a896-4e44-a99c-1257fc5c8460">
+    <data-source source="LOCAL" name="solo" uuid="57d9cf00-80bb-4743-a33a-bb7f192d7d87">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\MITCH\PycharmProjects\fortuna\jobs.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\MITCH\PycharmProjects\fortuna\solo.sqlite</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>

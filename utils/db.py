@@ -27,7 +27,11 @@ class DBHelper:
         tbl_leizi = """CREATE TABLE IF NOT EXISTS leizi(id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,question VARCHAR DEFAULT NULL,answer1 VARCHAR DEFAULT NULL,answer2 VARCHAR DEFAULT NULL,instruction VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0)"""
         tbl_odin = """CREATE TABLE IF NOT EXISTS odin(id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,question VARCHAR DEFAULT NULL,meaning VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0)"""
         tbl_zamo = """CREATE TABLE IF NOT EXISTS zamo(id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,answer VARCHAR DEFAULT NULL,question VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0)"""
-        tbl_africa = """CREATE TABLE IF NOT EXISTS africa(id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,question VARCHAR DEFAULT NULL,answer VARCHAR DEFAULT NULL,answer1 VARCHAR DEFAULT NULL,answer2 VARCHAR DEFAULT NULL,answer3 VARCHAR DEFAULT NULL,answer4 VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0)"""
+        tbl_africa = """CREATE TABLE IF NOT EXISTS africa(id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,question VARCHAR DEFAULT NULL,answer VARCHAR DEFAULT NULL,answer1 VARCHAR DEFAULT NULL,answer2 VARCHAR DEFAULT NULL,answer3 VARCHAR DEFAULT NULL,answer4 VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0,poll_id INTEGER DEFAULT 0,correct_id INTEGER DEFAULT 0)"""
+        tbl_wala = """CREATE TABLE IF NOT EXISTS wala (id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,main_question VARCHAR DEFAULT NULL,question VARCHAR DEFAULT NULL,answer VARCHAR DEFAULT NULL,answer1 VARCHAR DEFAULT NULL,answer2 VARCHAR DEFAULT NULL,answer3 VARCHAR DEFAULT NULL,answer4 VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0,poll_id INTEGER DEFAULT 0,correct_id INTEGER DEFAULT 0)"""
+        tbl_kadlu = """CREATE TABLE IF NOT EXISTS kadlu (id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,main_question VARCHAR DEFAULT NULL,question VARCHAR DEFAULT NULL,answer VARCHAR DEFAULT NULL,answer1 VARCHAR DEFAULT NULL,answer2 VARCHAR DEFAULT NULL,answer3 VARCHAR DEFAULT NULL,answer4 VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0,poll_id INTEGER DEFAULT 0,correct_id INTEGER DEFAULT 0)"""
+        tbl_nuwa = """CREATE TABLE IF NOT EXISTS nuwa(id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,question VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0)"""
+        tbl_gaia = """CREATE TABLE IF NOT EXISTS gaia(id INTEGER PRIMARY KEY,sess_id INTEGER DEFAULT NULL,quesId INTEGER DEFAULT NULL ,answer VARCHAR DEFAULT NULL,question VARCHAR DEFAULT NULL,qlevel VARCHAR DEFAULT NULL,qlanguage VARCHAR DEFAULT NULL,messageId INTEGER DEFAULT 0,bot VARCHAR DEFAULT NULL,status INTEGER DEFAULT 0)"""
         self.c.execute(tbl_notify)
         self.c.execute(tbl_likes)
         self.c.execute(tbl_sessions)
@@ -41,6 +45,10 @@ class DBHelper:
         self.c.execute(tbl_odin)
         self.c.execute(tbl_zamo)
         self.c.execute(tbl_africa)
+        self.c.execute(tbl_wala)
+        self.c.execute(tbl_kadlu)
+        self.c.execute(tbl_nuwa)
+        self.c.execute(tbl_gaia)
         self.conn.commit()
         # """Sessions"""
 
@@ -83,6 +91,14 @@ class DBHelper:
         lock.release()
         self.conn.commit()
 
+    def get_session_status(self,sess_id):
+        self.c.execute("SELECT status FROM live_sessions WHERE sess_id=?", (sess_id,))
+        sess = self.c.fetchone()
+        if sess is not None:
+            return sess[0]
+        else:
+            return False
+
     '''Bot Group'''
 
     def check_bot(self, groupId):
@@ -107,6 +123,443 @@ class DBHelper:
             return bot[0]
 
     """questions"""
+
+    """Gaia"""
+
+    def check_gaia(self, queId):
+        lock.acquire(True)
+        self.c.execute("SELECT quesId FROM gaia WHERE quesId=?", (queId,))
+        lock.release()
+        bot = self.c.fetchone()
+        if bot is not None:
+            return True
+        else:
+            return False
+
+    def save_gaia(self, sess_id, quesId,answer, question, qlevel, qlanguage, bot='gaia'):
+        if self.check_gaia(quesId) == False:
+            lock.acquire(True)
+            self.c.execute(
+                "INSERT INTO gaia(sess_id ,quesId,answer,question ,qlevel ,qlanguage,bot) VALUES (?,?,?,?,?,?,?)",
+                (sess_id, quesId, answer,question, qlevel, qlanguage, bot))
+            lock.release()
+            self.conn.commit()
+
+    def set_gaia_messageId(self, messageId, queId):
+        lock.acquire(True)
+        self.c.execute("UPDATE gaia SET messageId=? WHERE quesId=?", (messageId, queId))
+        lock.release()
+        self.conn.commit()
+
+    def get_gaia_answer_by_msgId(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT answer FROM gaia WHERE messageId=?", (msgId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_gaia_question_by_queId(self, queId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM gaia WHERE quesId=?", (queId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_gaia_by_session_id(self, session_id):
+        lock.acquire(True)
+        self.c.execute("SELECT quesId FROM gaia WHERE sess_id=?", (session_id,))
+        lock.release()
+        answer = self.c.fetchall()
+        if answer is not None:
+            return answer
+        else:
+            return False
+
+    def get_gaia_question_by_msgId(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM gaia WHERE messageId=?", (msgId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_gaia_level_by_msgId(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT qlevel FROM gaia WHERE messageId=?", (msgId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_gaia_bot(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT bot FROM gaia WHERE messageId=?", (msgId,))
+        lock.release()
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
+    def delete_gaia(self, messageId):
+        lock.acquire(True)
+        self.c.execute("DELETE FROM gaia WHERE messageId=?", (messageId,))
+        lock.release()
+        self.conn.commit()
+
+    def delete_gaia_by_qid(self, questionId):
+        # lock.acquire(True)
+        self.c.execute("DELETE FROM gaia WHERE quesId=?", (questionId,))
+        # lock.release()
+        self.conn.commit()
+
+    def get_gaia_count(self, sess_id):
+        self.c.execute("SELECT COUNT(*) FROM gaia WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
+
+    """Nuwa"""
+    def check_nuwa(self, queId):
+        lock.acquire(True)
+        self.c.execute("SELECT quesId FROM nuwa WHERE quesId=?", (queId,))
+        lock.release()
+        bot = self.c.fetchone()
+        if bot is not None:
+            return True
+        else:
+            return False
+
+    def save_nuwa(self, sess_id, quesId, question, qlevel, qlanguage,bot='nuwa'):
+        if self.check_nuwa(quesId) == False:
+            lock.acquire(True)
+            self.c.execute(
+                "INSERT INTO nuwa(sess_id ,quesId,question ,qlevel ,qlanguage,bot) VALUES (?,?,?,?,?,?)",
+                (sess_id, quesId, question, qlevel, qlanguage, bot))
+            lock.release()
+            self.conn.commit()
+
+    def set_nuwa_messageId(self, messageId, queId):
+        lock.acquire(True)
+        self.c.execute("UPDATE nuwa SET messageId=? WHERE quesId=?", (messageId, queId))
+        lock.release()
+        self.conn.commit()
+
+    def get_nuwa_answer_by_msgId(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM nuwa WHERE messageId=?", (msgId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_nuwa_question_by_queId(self, queId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM nuwa WHERE quesId=?", (queId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_nuwa_by_session_id(self, session_id):
+        lock.acquire(True)
+        self.c.execute("SELECT quesId FROM nuwa WHERE sess_id=?", (session_id,))
+        lock.release()
+        answer = self.c.fetchall()
+        if answer is not None:
+            return answer
+        else:
+            return False
+
+    def get_nuwa_question_by_msgId(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM nuwa WHERE messageId=?", (msgId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_nuwa_level_by_msgId(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT qlevel FROM nuwa WHERE messageId=?", (msgId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_nuwa_bot(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT bot FROM nuwa WHERE messageId=?", (msgId,))
+        lock.release()
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
+    def delete_nuwa(self, messageId):
+        lock.acquire(True)
+        self.c.execute("DELETE FROM nuwa WHERE messageId=?", (messageId,))
+        lock.release()
+        self.conn.commit()
+
+    def delete_nuwa_by_qid(self, questionId):
+        # lock.acquire(True)
+        self.c.execute("DELETE FROM nuwa WHERE quesId=?", (questionId,))
+        # lock.release()
+        self.conn.commit()
+
+    def get_nuwa_count(self, sess_id):
+        self.c.execute("SELECT COUNT(*) FROM nuwa WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
+    """kadlu"""
+
+    def check_kadlu(self, queId):
+        lock.acquire(True)
+        self.c.execute("SELECT quesId FROM kadlu WHERE quesId=?", (queId,))
+        lock.release()
+        bot = self.c.fetchone()
+        if bot is not None:
+            return True
+        else:
+            return False
+
+    def save_kadlu(self, sess_id, quesId, main_question, question, answer, answer1, answer2, answer3, answer4, qlevel,
+                   qlanguage,
+                   bot='kadlu'):
+        if self.check_kadlu(quesId) == False:
+            lock.acquire(True)
+            self.c.execute(
+                "INSERT INTO kadlu(sess_id ,quesId ,main_question,question ,answer,answer1,answer2,answer3,answer4,qlevel ,qlanguage,bot) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+                (
+                sess_id, quesId, main_question, question, answer, answer1, answer2, answer3, answer4, qlevel, qlanguage,
+                bot))
+            lock.release()
+            self.conn.commit()
+
+    def set_kadlu_messageId_pollId_correctId(self, messageId, pollId, correctId, queId):
+        lock.acquire(True)
+        self.c.execute("UPDATE kadlu SET messageId=?,poll_id=?,correct_id=? WHERE quesId=?",
+                       (messageId, pollId, correctId, queId))
+        lock.release()
+        self.conn.commit()
+
+    def get_kadlu_answer_by_pollId(self, pollId):
+        lock.acquire(True)
+        self.c.execute("SELECT correct_id FROM kadlu WHERE poll_id=?", (pollId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_kadlu_question_by_queId(self, queId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM kadlu WHERE quesId=?", (queId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_kadlu_by_session_id(self, session_id):
+        lock.acquire(True)
+        self.c.execute("SELECT quesId FROM kadlu WHERE sess_id=?", (session_id,))
+        lock.release()
+        answer = self.c.fetchall()
+        if answer is not None:
+            return answer
+        else:
+            return False
+
+    def get_kadlu_question_by_msgId(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM kadlu WHERE messageId=?", (msgId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_kadlu_level_by_pollId(self, pollId):
+        lock.acquire(True)
+        self.c.execute("SELECT qlevel FROM kadlu WHERE poll_id=?", (pollId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_kadlu_bot(self, pollId):
+        lock.acquire(True)
+        self.c.execute("SELECT bot FROM kadlu WHERE poll_id=?", (pollId,))
+        lock.release()
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
+    def delete_kadlu(self, messageId):
+        lock.acquire(True)
+        self.c.execute("DELETE FROM kadlu WHERE messageId=?", (messageId,))
+        lock.release()
+        self.conn.commit()
+
+    def delete_kadlu_by_qid(self, questionId):
+        # lock.acquire(True)
+        self.c.execute("DELETE FROM kadlu WHERE quesId=?", (questionId,))
+        # lock.release()
+        self.conn.commit()
+
+    def get_kadlu_count(self, sess_id):
+        self.c.execute("SELECT COUNT(*) FROM kadlu WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
+
+
+    """Wala"""
+
+    def check_wala(self, queId):
+        lock.acquire(True)
+        self.c.execute("SELECT quesId FROM wala WHERE quesId=?", (queId,))
+        lock.release()
+        bot = self.c.fetchone()
+        if bot is not None:
+            return True
+        else:
+            return False
+    def save_wala(self, sess_id ,quesId ,main_question,question ,answer,answer1,answer2,answer3,answer4,qlevel ,qlanguage,
+                    bot='wala'):
+        if self.check_wala(quesId) == False:
+            lock.acquire(True)
+            self.c.execute(
+                "INSERT INTO wala(sess_id ,quesId ,main_question,question ,answer,answer1,answer2,answer3,answer4,qlevel ,qlanguage,bot) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+                (sess_id ,quesId ,main_question,question ,answer,answer1,answer2,answer3,answer4,qlevel ,qlanguage,bot))
+            lock.release()
+            self.conn.commit()
+
+    def set_wala_messageId_pollId_correctId(self, messageId,pollId,correctId, queId):
+        lock.acquire(True)
+        self.c.execute("UPDATE wala SET messageId=?,poll_id=?,correct_id=? WHERE quesId=?", (messageId,pollId,correctId, queId))
+        lock.release()
+        self.conn.commit()
+
+    def get_wala_answer_by_pollId(self, pollId):
+        lock.acquire(True)
+        self.c.execute("SELECT correct_id FROM wala WHERE poll_id=?", (pollId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_wala_question_by_queId(self, queId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM wala WHERE quesId=?", (queId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_wala_by_session_id(self, session_id):
+        lock.acquire(True)
+        self.c.execute("SELECT quesId FROM wala WHERE sess_id=?", (session_id,))
+        lock.release()
+        answer = self.c.fetchall()
+        if answer is not None:
+            return answer
+        else:
+            return False
+
+    def get_wala_question_by_msgId(self, msgId):
+        lock.acquire(True)
+        self.c.execute("SELECT question FROM wala WHERE messageId=?", (msgId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_wala_level_by_pollId(self, pollId):
+        lock.acquire(True)
+        self.c.execute("SELECT qlevel FROM wala WHERE poll_id=?", (pollId,))
+        lock.release()
+        answer = self.c.fetchone()
+        if answer is not None:
+            return answer[0]
+        else:
+            return False
+
+    def get_wala_bot(self, pollId):
+        lock.acquire(True)
+        self.c.execute("SELECT bot FROM wala WHERE poll_id=?", (pollId,))
+        lock.release()
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
+
+    def delete_wala(self, messageId):
+        lock.acquire(True)
+        self.c.execute("DELETE FROM wala WHERE messageId=?", (messageId,))
+        lock.release()
+        self.conn.commit()
+
+    def delete_wala_by_qid(self, questionId):
+        # lock.acquire(True)
+        self.c.execute("DELETE FROM wala WHERE quesId=?", (questionId,))
+        # lock.release()
+        self.conn.commit()
+
+    def get_wala_count(self,sess_id):
+        self.c.execute("SELECT COUNT(*) FROM wala WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
     """Africa"""
 
     def check_africa(self, queId):
@@ -129,15 +582,15 @@ class DBHelper:
             lock.release()
             self.conn.commit()
 
-    def set_africa_messageId(self, messageId, queId):
+    def set_africa_messageId_pollId_correctId(self, messageId,pollId,correctId, queId):
         lock.acquire(True)
-        self.c.execute("UPDATE africa SET messageId=? WHERE quesId=?", (messageId, queId))
+        self.c.execute("UPDATE africa SET messageId=?,poll_id=?,correct_id=? WHERE quesId=?", (messageId,pollId,correctId, queId))
         lock.release()
         self.conn.commit()
 
-    def get_africa_answer_by_msgId(self, msgId):
+    def get_africa_answer_by_pollId(self, pollId):
         lock.acquire(True)
-        self.c.execute("SELECT answer FROM africa WHERE messageId=?", (msgId,))
+        self.c.execute("SELECT correct_id FROM africa WHERE poll_id=?", (pollId,))
         lock.release()
         answer = self.c.fetchone()
         if answer is not None:
@@ -175,9 +628,9 @@ class DBHelper:
         else:
             return False
 
-    def get_africa_level_by_msgId(self, msgId):
+    def get_africa_level_by_pollId(self, pollId):
         lock.acquire(True)
-        self.c.execute("SELECT qlevel FROM africa WHERE messageId=?", (msgId,))
+        self.c.execute("SELECT qlevel FROM africa WHERE poll_id=?", (pollId,))
         lock.release()
         answer = self.c.fetchone()
         if answer is not None:
@@ -185,9 +638,9 @@ class DBHelper:
         else:
             return False
 
-    def get_africa_bot(self, msgId):
+    def get_africa_bot(self, pollId):
         lock.acquire(True)
-        self.c.execute("SELECT bot FROM africa WHERE messageId=?", (msgId,))
+        self.c.execute("SELECT bot FROM africa WHERE poll_id=?", (pollId,))
         lock.release()
         bot = self.c.fetchone()
         if bot is not None:
@@ -202,10 +655,18 @@ class DBHelper:
         self.conn.commit()
 
     def delete_africa_by_qid(self, questionId):
-        lock.acquire(True)
+        # lock.acquire(True)
         self.c.execute("DELETE FROM africa WHERE quesId=?", (questionId,))
-        lock.release()
+        # lock.release()
         self.conn.commit()
+
+    def get_africa_count(self,sess_id):
+        self.c.execute("SELECT COUNT(*) FROM africa WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
 
     """Zamo"""
 
@@ -301,10 +762,18 @@ class DBHelper:
         self.conn.commit()
 
     def delete_zamo_by_qid(self, questionId):
-        lock.acquire(True)
+        # lock.acquire(True)
         self.c.execute("DELETE FROM zamo WHERE quesId=?", (questionId,))
-        lock.release()
+        # lock.release()
         self.conn.commit()
+
+    def get_zamo_count(self,sess_id):
+        self.c.execute("SELECT COUNT(*) FROM zamo WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
 
     """Odin"""
 
@@ -398,10 +867,19 @@ class DBHelper:
         self.conn.commit()
 
     def delete_odin_by_qid(self, questionId):
-        lock.acquire(True)
+        # lock.acquire(True)
         self.c.execute("DELETE FROM odin WHERE quesId=?", (questionId,))
-        lock.release()
+        # lock.release()
         self.conn.commit()
+
+
+    def get_odin_count(self,sess_id):
+        self.c.execute("SELECT COUNT(*) FROM odin WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
 
     """Leizi"""
 
@@ -487,10 +965,18 @@ class DBHelper:
         self.conn.commit()
 
     def delete_leizi_by_qid(self, questionId):
-        lock.acquire(True)
+        # lock.acquire(True)
         self.c.execute("DELETE FROM leizi WHERE quesId=?", (questionId,))
-        lock.release()
+        # lock.release()
         self.conn.commit()
+
+    def get_leizi_count(self,sess_id):
+        self.c.execute("SELECT COUNT(*) FROM leizi WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
 
     """Tyche"""
 
@@ -576,10 +1062,19 @@ class DBHelper:
         self.conn.commit()
 
     def delete_tyche_by_qid(self, questionId):
-        lock.acquire(True)
+        # lock.acquire(True)
         self.c.execute("DELETE FROM tyche WHERE quesId=?", (questionId,))
-        lock.release()
+        # lock.release()
         self.conn.commit()
+
+    def get_tyche_count(self,sess_id):
+        self.c.execute("SELECT COUNT(*) FROM tyche WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
+
 
     """Seshat"""
 
@@ -665,10 +1160,18 @@ class DBHelper:
         self.conn.commit()
 
     def delete_seshat_by_qid(self, questionId):
-        lock.acquire(True)
+        # lock.acquire(True)
         self.c.execute("DELETE FROM seshat WHERE quesId=?", (questionId,))
-        lock.release()
+        # lock.release()
         self.conn.commit()
+
+    def get_seshat_count(self,sess_id):
+        self.c.execute("SELECT COUNT(*) FROM seshat WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
 
     """1. Apollo"""
 
@@ -754,10 +1257,18 @@ class DBHelper:
         self.conn.commit()
 
     def delete_apollo_by_qid(self, questionId):
-        lock.acquire(True)
+        # lock.acquire(True)
         self.c.execute("DELETE FROM apollo WHERE quesId=?", (questionId,))
-        lock.release()
+        # lock.release()
         self.conn.commit()
+
+    def get_apollo_count(self,sess_id):
+        self.c.execute("SELECT COUNT(*) FROM apollo WHERE sess_id=?", (sess_id,))
+        bot = self.c.fetchone()
+        if bot is not None:
+            return bot[0]
+        else:
+            return False
 
     """CHANCES"""
 
@@ -868,3 +1379,24 @@ class DBHelper:
         lock.release()
         bot = self.c.fetchone()
         return bot[0]
+    
+    
+    def sanitize_bots(self):
+        self.c.execute('DROP TABLE IF EXISTS africa')
+        self.c.execute('DROP TABLE IF EXISTS apollo')
+        self.c.execute('DROP TABLE IF EXISTS seshat')
+        self.c.execute('DROP TABLE IF EXISTS leizi')
+        self.c.execute('DROP TABLE IF EXISTS odin')
+        self.c.execute('DROP TABLE IF EXISTS tyche')
+        self.c.execute('DROP TABLE IF EXISTS zamo')
+        self.c.execute('DROP TABLE IF EXISTS wala')
+        self.c.execute('DROP TABLE IF EXISTS kadlu')
+        self.c.execute('DROP TABLE IF EXISTS nuwa')
+        self.c.execute('DROP TABLE IF EXISTS gaia')
+        self.c.execute('DROP TABLE IF EXISTS live_sessions')
+        self.conn.commit()
+
+
+
+
+

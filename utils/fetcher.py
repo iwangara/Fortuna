@@ -10,8 +10,8 @@ from .liner import SCHED
 
 sched = SCHED
 
-BASE_URL="http://88.80.148.116:5000"
-# BASE_URL ="http://127.0.0.1:5000"
+BASE_URL="http://85.25.203.136:8000/"
+# BASE_URL ="http://127.0.0.1:8000"
 class Sessions(object):
     def __init__(self, language, url=f"{BASE_URL}/sessions/"):
         self.language = language
@@ -322,7 +322,7 @@ def fetchSessions():
     for session in sessions:
         # check if session is already save in the db
         sess_check = sql.check_session(session['id'])
-        if sess_check == False:
+        if sess_check==False:
             sess_id = session['id']
             group_language = session['language']
             bot = session['type']
@@ -336,20 +336,18 @@ def fetchSessions():
             status = session['status']
             """Save session"""
             print(f"{session_name} saved")
-            print('start time',start_time)
+            print('start time', start_time)
             sql.save_sessions(sess_id, group_language, bot, lesson, each_time, total_time, start_time, qlevel,
                               questions, session_name, status)
             # queue the notification a minute earlier
             amin_time = utils.liner.session_time(start_time=start_time, period=60)
-            after_time =utils.liner.post_time(start_time=start_time, period=60)
-            # print(amin_time)
-            # '''todo activate dynamic time'''
-            # Que Notification to the group a min before the session starts
+            after_time = utils.liner.post_time(start_time=start_time, period=60)
 
-            sched.add_job(utils.Notify().session_start, 'date', run_date=amin_time, args=[bot, questions,qlevel,session_name, total_time])
+            sched.add_job(utils.Notify().session_start, 'date', run_date=amin_time,
+                          args=[bot, questions, qlevel, session_name, total_time])
             sched.add_job(utils.Notify().session_ongoing, 'date', run_date=after_time,
                           args=[bot, questions, qlevel, session_name, total_time])
-            print("starting session",amin_time)
+            print("starting session", amin_time)
             utils.mr_logger(f"starting session{amin_time}")
             # sched.add_job(utils.Notify().session_start, 'date', run_date='2020-04-01 23:21:10',
             #                              args=[session_name, questions, total_time])
@@ -373,11 +371,11 @@ def fetchSessions():
                     print("start time", stime)
                     print("actual start", net_time)
                     sched.add_job(utils.Notify().apollo_post, 'date', run_date=net_time,
-                                  args=[apollo_id, apollo_question],id=str(apollo_id))
+                                  args=[apollo_id, apollo_question, sess_id], id=str(apollo_id))
 
                 print(f'Finished saving apollo {session_name} session')
-            elif bot =='Seshat':
-                seshats=utils.Questions(id=int(sess_id)).get_questions()
+            elif bot == 'Seshat':
+                seshats = utils.Questions(id=int(sess_id)).get_questions()
                 stime = 0
                 # post every minute 50+10 seconds
                 post_time = int(each_time) + 5
@@ -388,7 +386,7 @@ def fetchSessions():
                     seshat_answer = seshat['answer']
                     seshat_instruction = seshat['instruction']
                     seshat_level = seshat['level']
-                    seshat_gif = seshat['img_path']
+                    seshat_gif = seshat['img']
                     sql.save_seshat(sess_id=sess_id, quesId=seshat_id, question=seshat_question, answer=seshat_answer,
                                     instruction=seshat_instruction, gif=seshat_gif, qlevel=seshat_level,
                                     qlanguage=seshat_language)
@@ -398,7 +396,8 @@ def fetchSessions():
                     print("start time", stime)
                     print("actual start", net_time)
                     sched.add_job(utils.Notify().seshat_post, 'date', run_date=net_time,
-                                  args=[seshat_id, seshat_question,seshat_instruction,seshat_gif], id=str(seshat_id))
+                                  args=[seshat_id, seshat_question, seshat_instruction, seshat_gif, sess_id],
+                                  id=str(seshat_id))
             elif bot == 'Tyche':
                 tyches = utils.Questions(id=int(sess_id)).get_questions()
                 stime = 0
@@ -418,10 +417,9 @@ def fetchSessions():
                     print("start time", stime)
                     print("actual start", net_time)
                     sched.add_job(utils.Notify().tyche_post, 'date', run_date=net_time,
-                                  args=[tyche_id, tyche_question],id=str(tyche_id))
+                                  args=[tyche_id, tyche_question, sess_id], id=str(tyche_id))
 
                 print(f'Finished saving Tyche {session_name} session')
-
             elif bot == 'Leizi':
                 leizis = utils.Questions(id=int(sess_id)).get_questions()
                 stime = 0
@@ -444,8 +442,7 @@ def fetchSessions():
                     print("start time", stime)
                     print("actual start", net_time)
                     sched.add_job(utils.Notify().leizi_post, 'date', run_date=net_time,
-                                  args=[leizi_id, leizi_question,leizi_instruction], id=str(leizi_id))
-
+                                  args=[leizi_id, leizi_question, leizi_instruction, sess_id], id=str(leizi_id))
             elif bot == 'Odin':
                 odins = utils.Questions(id=int(sess_id)).get_questions()
                 stime = 0
@@ -455,9 +452,10 @@ def fetchSessions():
                     odin_id = odin['id']
                     odin_language = odin['language']
                     odin_question = odin['question']
-                    odin_meaning =odin['meaning']
+                    odin_meaning = odin['meaning']
                     odin_level = odin['level']
-                    sql.save_odin(sess_id=sess_id, quesId=odin_id, question=odin_question,meaning=odin_meaning, qlevel=odin_level,
+                    sql.save_odin(sess_id=sess_id, quesId=odin_id, question=odin_question, meaning=odin_meaning,
+                                  qlevel=odin_level,
                                   qlanguage=odin_language)
                     print(f"saving odin {session_name} questions")
                     stime += int(post_time)
@@ -465,8 +463,7 @@ def fetchSessions():
                     print("start time", stime)
                     print("actual start", net_time)
                     sched.add_job(utils.Notify().odin_post, 'date', run_date=net_time,
-                                  args=[odin_id], id=str(odin_id))
-
+                                  args=[odin_id, sess_id], id=str(odin_id))
             elif bot == 'Zamo':
                 zamos = utils.Questions(id=int(sess_id)).get_questions()
                 stime = 0
@@ -486,13 +483,12 @@ def fetchSessions():
                     print("start time", stime)
                     print("actual start", net_time)
                     sched.add_job(utils.Notify().zamo_post, 'date', run_date=net_time,
-                                  args=[zamo_id,zamo_question], id=str(zamo_id))
-
+                                  args=[zamo_id, zamo_question, sess_id], id=str(zamo_id))
             elif bot == 'Africa':
                 africas = utils.Questions(id=int(sess_id)).get_questions()
                 stime = 0
                 # post every minute 50+10 seconds
-                post_time = int(each_time) + 10
+                post_time = int(each_time) + 15
                 for africa in africas:
                     africa_id = africa['id']
                     africa_language = africa['language']
@@ -515,7 +511,136 @@ def fetchSessions():
                     print("start time", stime)
                     print("actual start", net_time)
                     sched.add_job(utils.Notify().africa_post, 'date', run_date=net_time,
-                                  args=[africa_id, africa_question,pick], id=str(africa_id))
+                                  args=[africa_id, africa_question, pick, sess_id], id=str(africa_id))
+            elif bot == 'Wala':
+                main_mess = {"main": 123}
+                walas = utils.Questions(id=int(sess_id)).get_questions()
+                wala_time = utils.liner.post_time(start_time=start_time, period=int(182))
+                wala_time = wala_time.strftime("%Y-%m-%d %H:%M")
 
-        else:
-            print("no new sessions found")
+                stime = 0
+                # post every minute 50+10 seconds
+                post_time = int(each_time) + 15
+                for wala in walas:
+                    wala_id = wala['id']
+                    wala_language = wala['language']
+                    wala_main_question = wala['main_question']
+                    wala_question = wala['sub_question']
+                    wala_answer = wala['answer1']
+                    wala_answer1 = wala['answer1']
+                    wala_answer2 = wala['answer2']
+                    wala_answer3 = wala['answer3']
+                    wala_answer4 = wala['answer4']
+                    wala_level = 'Elementary'
+                    main_mess["main"] = wala_main_question
+                    pick = [wala_answer1, wala_answer2, wala_answer3, wala_answer4]
+                    # sess_id, quesId, main_question, question, answer, answer1, answer2, answer3, answer4, qlevel, qlanguage
+                    sql.save_wala(sess_id=sess_id, quesId=wala_id, main_question=wala_main_question,
+                                  question=wala_question,
+                                  answer=wala_answer, answer1=wala_answer1, answer2=wala_answer2, answer3=wala_answer3,
+                                  answer4=wala_answer4, qlevel=wala_level, qlanguage=wala_language)
+
+                    # wait for how long before posting
+                    stime += int(post_time)
+                    # convert to date type
+                    net_time = utils.liner.post_time(start_time=wala_time, period=int(stime))
+                    print("start time", stime)
+                    print("actual start", net_time)
+                    try:
+                        sched.add_job(utils.Notify().wala_post, 'date', run_date=net_time,
+                                      args=[wala_id, wala_question, pick, sess_id], id=str(wala_id))
+                    except:
+                        pass
+
+                main_time = utils.liner.post_time(start_time=start_time, period=int(1))
+                sched.add_job(utils.Notify().wala_post_main, 'date', run_date=main_time,
+                              args=[main_mess['main']])
+
+            elif bot == 'Kadlu':
+                main_mess = {"kadlu": 123}
+                kadlus = utils.Questions(id=int(sess_id)).get_questions()
+                kadlu_time = utils.liner.post_time(start_time=start_time, period=int(122))
+                kadlu_time = kadlu_time.strftime("%Y-%m-%d %H:%M")
+
+                stime = 0
+                # post every minute 50+10 seconds
+                post_time = int(each_time) + 15
+                for kadlu in kadlus:
+                    # print(kadlu)
+                    kadlu_id = kadlu['id']
+                    kadlu_language = kadlu['language']
+                    kadlu_main_question = kadlu['path']
+                    kadlu_question = kadlu['sub_question']
+                    kadlu_answer = kadlu['answer1']
+                    kadlu_answer1 = kadlu['answer1']
+                    kadlu_answer2 = kadlu['answer2']
+                    kadlu_answer3 = kadlu['answer3']
+                    kadlu_answer4 = kadlu['answer4']
+                    kadlu_level = 'Elementary'
+                    main_mess["kadlu"] = kadlu_main_question
+                    pick = [kadlu_answer1, kadlu_answer2, kadlu_answer3, kadlu_answer4]
+                    sql.save_kadlu(sess_id=sess_id, quesId=kadlu_id, main_question=kadlu_main_question,
+                                   question=kadlu_question,
+                                   answer=kadlu_answer, answer1=kadlu_answer1, answer2=kadlu_answer2,
+                                   answer3=kadlu_answer3,
+                                   answer4=kadlu_answer4, qlevel=kadlu_level, qlanguage=kadlu_language)
+                    # wait for how long before posting
+                    stime += int(post_time)
+                    # convert to date type
+                    net_time = utils.liner.post_time(start_time=kadlu_time, period=int(stime))
+                    print("start time", stime)
+                    print("actual start", net_time)
+                    try:
+                        sched.add_job(utils.Notify().kadlu_post, 'date', run_date=net_time,
+                                      args=[kadlu_id, kadlu_question, pick, sess_id], id=str(kadlu_id))
+                    except:
+                        pass
+
+                main_time = utils.liner.post_time(start_time=start_time, period=int(1))
+                sched.add_job(utils.Notify().kadlu_post_main, 'date', run_date=main_time,
+                              args=[main_mess['kadlu']])
+
+            elif bot == 'Nuwa':
+                nuwas = utils.Questions(id=int(sess_id)).get_questions()
+                stime = 0
+                # post every minute 50+10 seconds
+                post_time = int(each_time) + 20
+                for nuwa in nuwas:
+                    nuwa_id = nuwa['id']
+                    nuwa_language = nuwa['language']
+                    nuwa_question = nuwa['question']
+                    nuwa_level = nuwa['level']
+                    # utils.mr_logger(nuwa)
+                    sql.save_nuwa(sess_id=sess_id, quesId=nuwa_id, question=nuwa_question,
+                                    qlevel=nuwa_level, qlanguage=nuwa_language)
+                    print(f"saving nuwa {session_name} questions")
+                    stime += int(post_time)
+                    net_time = utils.liner.post_time(start_time=start_time, period=int(stime))
+                    print("start time", stime)
+                    print("actual start", net_time)
+
+                    sched.add_job(utils.Notify().nuwa_post, 'date', run_date=net_time,
+                                  args=[nuwa_question,sess_id,nuwa_id ], id=str(nuwa_id))
+
+            elif bot == 'Gaia':
+                gaias = utils.Questions(id=int(sess_id)).get_questions()
+                stime = 0
+                # post every minute 50+10 seconds
+                post_time = int(each_time) + 25
+                for gaia in gaias:
+                    gaia_id = gaia['id']
+                    gaia_language = gaia['language']
+                    gaia_answer = gaia['question']
+                    gaia_level = gaia['level']
+                    gaia_question = gaia['path']
+                    sql.save_gaia(sess_id=sess_id, quesId=gaia_id,answer=gaia_answer ,question=gaia_question,
+                                    qlevel=gaia_level, qlanguage=gaia_language)
+                    print(f"saving gaia {session_name} questions")
+                    stime += int(post_time)
+                    net_time = utils.liner.post_time(start_time=start_time, period=int(stime))
+                    print("start time", stime)
+                    print("actual start", net_time)
+
+                    sched.add_job(utils.Notify().gaia_post, 'date', run_date=net_time,
+                                  args=[gaia_id,gaia_question,sess_id ], id=str(gaia_id))
+

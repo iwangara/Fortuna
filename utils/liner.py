@@ -14,7 +14,7 @@ executors = {
 }
 job_defaults = {
     'coalesce': False,
-    'max_instances': 10
+    'max_instances': 20
 }
 
 

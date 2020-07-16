@@ -36,11 +36,17 @@ def unauth_group(update, context):
         for i in update.message.new_chat_members:
             if i.username == configs.BOTUSERNAME:
                 if user_id not in configs.ADMINS:
+                    try:
+                        context.bot.send_message(chat_id=group_id,
+                                                 text="Join @learningcreators now!!!. Don’t you see it is boring here? I am leaving already.")
+                    except:
+                        pass
+
                     context.bot.leave_chat(chat_id=group_id)
                     try:
                         for admin in configs.ADMINS:
                             context.bot.send_message(chat_id=admin,
-                                             text=f"@{utils.get_username(update, context)} tried to add me to {group_title} but I left ,upd.")
+                                             text=f"@{utils.get_username(update, context)} tried to add me to {group_title} but I left ASAP.")
                     except:
                         pass
 

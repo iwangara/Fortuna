@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from telegram import Bot
-from telegram.ext import Updater, MessageHandler, Filters,CommandHandler,CallbackQueryHandler, PicklePersistence
+from telegram.ext import Updater, MessageHandler, Filters, CommandHandler, CallbackQueryHandler, PicklePersistence, \
+    PollAnswerHandler, PollHandler
 from telegram.utils.request import Request
 from telegram.error import  BadRequest
 from telegram.ext import messagequeue as mq
@@ -28,13 +29,8 @@ sched = utils.SCHED
 
 
 """fetch new questions every 10 mins"""
-utils.fetchSessions()
-try:
-    sched.remove_job(job_id='fetcher')
-    sched.add_job(utils.fetchSessions, 'interval', minutes=5, id='fetcher')
-except Exception as e:
-    print(e)
-    pass
+# utils.fetchSessions()
+# sched.add_job(utils.fetchSessions, 'interval', minutes=5)
 
 
 sched.print_jobs()
@@ -203,22 +199,26 @@ def main():
     dp.add_handler(CommandHandler(command='help', callback=botify.help))
     dp.add_handler(CommandHandler(command='top', callback=botify.top))
     dp.add_handler(CommandHandler(command='gid',callback=botify.gid))
+    dp.add_handler(CommandHandler(command='solo', callback=botify.solo_learn))
     dp.add_handler(CommandHandler(command='progress', callback=botify.check_progress))
     dp.add_handler(CommandHandler(command='studyrooms', callback=botify.studyrooms))
     dp.add_handler(CommandHandler(command='teachers', callback=botify.teachers))
     dp.add_handler(CommandHandler(command='classrooms', callback=botify.classrooms))
     dp.add_handler(CommandHandler(command='rector', callback=botify.rector))
     dp.add_handler(CommandHandler(command='settopic', callback=botify.settopic))
+    dp.add_handler(CommandHandler(command='support', callback=botify.ask_donation))
     dp.add_handler(CommandHandler(command='topic', callback=botify.topic))
     dp.add_handler(CommandHandler(command='stop', callback=botify.session_manager))
     dp.add_handler(MessageHandler(Filters.command & Filters.reply & Filters.group,botify.bonus))
     dp.add_handler(MessageHandler(Filters.reply & (Filters.text | Filters.voice), botify.reply_check))
     dp.add_handler(MessageHandler(Filters.status_update.new_chat_members,botify.unauth_group))
     dp.add_handler(MessageHandler(Filters.text,botify.message_counter))
-    dp.add_handler(MessageHandler(Filters.dice, botify.dice))
+    dp.add_handler(MessageHandler(Filters.dice, botify.solo_learn))
     dp.add_handler(CallbackQueryHandler(botify.javis))
+    dp.add_handler(PollHandler(botify.poll_private))
+    dp.add_handler(PollAnswerHandler(botify.poll_listener))
 # log all errors
-    dp.add_error_handler(botify.error)
+#     dp.add_error_handler(botify.error)
 
     # Start the Bot
     updater.start_polling()
